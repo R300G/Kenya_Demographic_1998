@@ -1,10 +1,10 @@
 #### Preamble ####
 # Purpose: Obtain and prepare data about men responding to questions about AIDS
 # for demographics such as age and province.
-# Author: 
-# Email: 
-# Date: 
-# Prerequisites: - 
+# Author:
+# Email:
+# Date:
+# Prerequisites: -
 
 #### Workspace set-up ####
 library(janitor)
@@ -13,25 +13,29 @@ library(tidyverse)
 
 #### Simulate data ####
 set.seed(853)
-generate_survey_distribution <- function(n){
-  x<- runif(n, 0, 1)
-  y <- x/sum(x)
+generate_survey_distribution <- function(n) {
+  x <- runif(n, 0, 1)
+  y <- x / sum(x)
   sum(y) == 1
-  return (y*100)
+  return(y * 100)
 }
-simulated_dhs_1998_pg163 <- 
+simulated_dhs_1998_pg163 <-
   tibble(
-    age = 
+    age =
       c(
-        rep('15-19', 3),
-        rep('20-24', 3),
-        rep('25-29', 3),
-        rep('30-39', 3),
-        rep('40-49', 3),
-        rep('50-54', 3)
+        rep("15-19", 12),
+        rep("20-24", 12),
+        rep("25-29", 12),
+        rep("30-39", 12),
+        rep("40-49", 12),
+        rep("50-54", 12)
       ),
+    gender = rep(c(rep("female", 6), rep("male", 6)), 6),
     survey_answer =
-    rep(c("no","yes","dont_know"),6)
-    ,
-    question1 = rep(generate_survey_distribution(3),6)
+      rep(c("no", "yes", "dont_know", "almost_never", "some_times", "almost_always"), 12),
+    can_healthy_looking_person_have_the_AIDS_virus = c(replicate(12, c(generate_survey_distribution(3), rep(NA, 3)))),
+    is_AIDS_a_fatal_disease = c(replicate(12, c(rep(NA, 2), generate_survey_distribution(4)))),
+    can_AIDS_be_cured = c(replicate(12, c(generate_survey_distribution(3), rep(NA, 3)))),
+    can_the_AIDS_virus_be_transmitted_form_mother_to_child = c(replicate(12, c(generate_survey_distribution(3), rep(NA, 3)))),
+    do_you_know_someone_with_AIDS_or_who_died_of_AIDS = c(replicate(12, c(generate_survey_distribution(3), rep(NA, 3)))),
   )

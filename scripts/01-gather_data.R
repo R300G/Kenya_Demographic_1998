@@ -18,7 +18,7 @@ dhs_1998_p163_extract <-
     col = raw_data,
     into = c("background_characteristic","data"),
     sep = "\\s{2,}",
-    remove = FALSE,
+    remove = TRUE,
     extra = "merge",
     fill = "right"
   )%>%
@@ -33,5 +33,8 @@ dhs_1998_p163_extract <-
       "do_you_know_someone_with_AIDS_or_who_died_of_AIDS_no","do_you_know_someone_with_AIDS_or_who_died_of_AIDS_yes","do_you_know_someone_with_AIDS_or_who_died_of_AIDS_dont_know","total"),
     sep = "\\s",
     remove = FALSE,
+    extra = "drop",
     fill = "right"
   )
+
+write.csv(dhs_1998_p163_extract, "outputs/data/raw_data_male.csv",row.names = FALSE)

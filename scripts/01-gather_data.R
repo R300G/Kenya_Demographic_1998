@@ -35,7 +35,7 @@ dhs_1998_p163_extract <-
     remove = FALSE,
     extra = "drop",
     fill = "right"
-  )
+  )%>%select(-data)
 
 write.csv(dhs_1998_p163_extract, "outputs/data/raw_data_male.csv",row.names = FALSE)
 
@@ -43,17 +43,13 @@ write.csv(dhs_1998_p163_extract, "outputs/data/raw_data_male.csv",row.names = FA
 
 
 
-dhs_1998 <- pdf_text("inputs/FR102.pdf")
-
-dhs_1998 <- tibble(raw_data = dhs_1998)
-
 dhs_1998_p162 <- dhs_1998 %>% slice(162)
 dhs_1998_p162 <-
   dhs_1998_p162 %>%
   separate_rows(raw_data, sep = "\\n", convert = FALSE)
 
 dhs_1998_p162_extract <-
-    dhs_1998_p162 %>%
+  dhs_1998_p162 %>%
   mutate(raw_data = str_trim(raw_data)) %>%
   separate(
     col = raw_data,  
@@ -76,6 +72,6 @@ dhs_1998_p162_extract <-
     remove = FALSE,
     extra = "drop",
     fill = "right"
-  )
- 
+  )%>%select(-data)
+
 write.csv(dhs_1998_p162_extract, "outputs/data/raw_data_female.csv",row.names = FALSE)

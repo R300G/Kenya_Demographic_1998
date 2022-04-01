@@ -55,7 +55,7 @@ dhs_1998_p162_extract <-
     col = raw_data,  
     into = c("background_characteristic","data"),
     sep = "\\s{2,}",
-    remove = FALSE,
+    remove = TRUE,
     extra = "merge",
     fill = "right"
   )%>%

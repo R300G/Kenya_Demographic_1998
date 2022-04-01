@@ -96,3 +96,5 @@ simulated_dhs_1998_res <-
     do_you_know_someone_with_AIDS_or_who_died_of_AIDS = c(replicate(4, c(generate_survey_distribution(3), rep(NA, 3)))),
   )
 view(simulated_dhs_1998_res)
+
+#this comment

@@ -1,0 +1,67 @@
+"age_group","gender","survey_answer","can_a_healthy_looking_person_have_the_aids_vrius","is_aids_a_fatal_disease","can_aids_be_cured","can_the_aids_virus_be_transmitted_from_mother_to_child","do_you_know_someone_with_aids_or_who_died_of_aids"
+"15-19","female","almost always",NA,"83.4",NA,NA,NA
+"15-19","female","almost never",NA,"0.8",NA,NA,NA
+"15-19","female","don't know","7.7","3.7","2.8","8.7","1.7"
+"15-19","female","no","24.1",NA,"92.6","11.2","36.0"
+"15-19","female","sometimes",NA,"12.2",NA,NA,NA
+"15-19","female","yes","68.1",NA,"4.1","79.6","61.8"
+"15-19","male","almost always",NA,"76.7",NA,NA,NA
+"15-19","male","almost never",NA,"1.0",NA,NA,NA
+"15-19","male","don't know","9.5","2.8","4.9","12.0","1.6"
+"15-19","male","no","15.5",NA,"89.2","9.0","42.7"
+"15-19","male","sometimes",NA,"19.5",NA,NA,NA
+"15-19","male","yes","75.0",NA,"5.6","78.6","54.9"
+"20-24","female","almost always",NA,"87.4",NA,NA,NA
+"20-24","female","almost never",NA,"0.7",NA,NA,NA
+"20-24","female","don't know","5.3","1.6","3.1","4.3","0.7"
+"20-24","female","no","11.9",NA,"92.8","4.6","28.2"
+"20-24","female","sometimes",NA,"10.1",NA,NA,NA
+"20-24","female","yes","82.9",NA,"3.4","91.0","70.6"
+"20-24","male","almost always",NA,"80.8",NA,NA,NA
+"20-24","male","almost never",NA,"0.8",NA,NA,NA
+"20-24","male","don't know","3.2","1.3","4.6","5.4","1.6"
+"20-24","male","no","7.3",NA,"90.2","6.2","32.8"
+"20-24","male","sometimes",NA,"17.1",NA,NA,NA
+"20-24","male","yes","89.4",NA,"4.7","87.3","65.2"
+"25-29","female","almost always",NA,"85.6",NA,NA,NA
+"25-29","female","almost never",NA,"1.0",NA,NA,NA
+"25-29","female","don't know","4.5","2.0","2.1","5.2","0.9"
+"25-29","female","no","12.6",NA,"94.1","5.1","23.1"
+"25-29","female","sometimes",NA,"11.3",NA,NA,NA
+"25-29","female","yes","82.9",NA,"3.6","89.5","75.7"
+"25-29","male","almost always",NA,"80.1",NA,NA,NA
+"25-29","male","almost never",NA,"1.0",NA,NA,NA
+"25-29","male","don't know","3.6","1.3","4.4","7.2","0.8"
+"25-29","male","no","6.8",NA,"89.1","4.7","25.5"
+"25-29","male","sometimes",NA,"17.7",NA,NA,NA
+"25-29","male","yes","89.2",NA,"6.0","87.5","73.7"
+"30-39","female","almost always",NA,"85.7",NA,NA,NA
+"30-39","female","almost never",NA,"0.4",NA,NA,NA
+"30-39","female","don't know","6.3","1.7","2.3","5.2","1.3"
+"30-39","female","no","10.6",NA,"93.3","5.9","22.3"
+"30-39","female","sometimes",NA,"12.1",NA,NA,NA
+"30-39","female","yes","83.1",NA,"4.0","87.8","76.2"
+"30-39","male","almost always",NA,"78.6",NA,NA,NA
+"30-39","male","almost never",NA,"0.9",NA,NA,NA
+"30-39","male","don't know","5.0","2.3","4.0","7.1","1.4"
+"30-39","male","no","5.4",NA,"92.5","3.7","19.7"
+"30-39","male","sometimes",NA,"18.3",NA,NA,NA
+"30-39","male","yes","89.7",NA,"3.1","88.6","78.8"
+"40-49","female","almost always",NA,"84.3",NA,NA,NA
+"40-49","female","almost never",NA,"0.5",NA,NA,NA
+"40-49","female","don't know","8.0","2.8","4.5","8.6","1.6"
+"40-49","female","no","12.1",NA,"92.2","8.7","21.4"
+"40-49","female","sometimes",NA,"12.4",NA,NA,NA
+"40-49","female","yes","80.0",NA,"2.8","82.1","76.7"
+"40-49","male","almost always",NA,"79.6",NA,NA,NA
+"40-49","male","almost never",NA,"0.8",NA,NA,NA
+"40-49","male","don't know","7.1","2.8","4.7","8.3","1.9"
+"40-49","male","no","6.4",NA,"91.4","4.8","19.7"
+"40-49","male","sometimes",NA,"16.6",NA,NA,NA
+"40-49","male","yes","86.4",NA,"3.3","86.6","78.2"
+"50-54","male","almost always",NA,"82.9",NA,NA,NA
+"50-54","male","almost never",NA,"0.0",NA,NA,NA
+"50-54","male","don't know","11.8","2.8","6.2","13.7","3.2"
+"50-54","male","no","3.8",NA,"87.6","5.7","16.6"
+"50-54","male","sometimes",NA,"14.3",NA,NA,NA
+"50-54","male","yes","84.4",NA,"6.2","79.5","79.8"

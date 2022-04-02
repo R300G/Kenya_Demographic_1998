@@ -1,0 +1,37 @@
+"mar_stat","gender","survey_answer","can_a_healthy_looking_person_have_the_aids_vrius","is_aids_a_fatal_disease","can_aids_be_cured","can_the_aids_virus_be_transmitted_from_mother_to_child","do_you_know_someone_with_aids_or_who_died_of_aids"
+"Currently married","female","almost always",NA,"86.0",NA,NA,NA
+"Currently married","female","almost never",NA,"0.6",NA,NA,NA
+"Currently married","female","don't know","6.5","2.0","2.8","6.1","1.2"
+"Currently married","female","no","12.9",NA,"93.4","5.9","24.1"
+"Currently married","female","sometimes",NA,"11.4",NA,NA,NA
+"Currently married","female","yes","80.6",NA,"3.4","87.4","74.3"
+"Currently married","male","almost always",NA,"81.2",NA,NA,NA
+"Currently married","male","almost never",NA,"0.6",NA,NA,NA
+"Currently married","male","don't know","6.0","1.9","4.8","7.7","1.8"
+"Currently married","male","no","5.5",NA,"91.5","4.5","19.7"
+"Currently married","male","sometimes",NA,"16.3",NA,NA,NA
+"Currently married","male","yes","88.4",NA,"3.3","87.1","78.2"
+"Formerly married","female","almost always",NA,"85.4",NA,NA,NA
+"Formerly married","female","almost never",NA,"0.5",NA,NA,NA
+"Formerly married","female","don't know","6.2","2.4","3.5","6.2","1.5"
+"Formerly married","female","no","12.0",NA,"92.7","6.9","23.4"
+"Formerly married","female","sometimes",NA,"11.8",NA,NA,NA
+"Formerly married","female","yes","81.8",NA,"3.2","85.9","75.2"
+"Formerly married","male","almost always",NA,"72.3",NA,NA,NA
+"Formerly married","male","almost never",NA,"0.0",NA,NA,NA
+"Formerly married","male","don't know","7.7","3.0","6.6","8.7","1.0"
+"Formerly married","male","no","11.5",NA,"82.1","4.7","35.1"
+"Formerly married","male","sometimes",NA,"24.7",NA,NA,NA
+"Formerly married","male","yes","80.8",NA,"10.4","86.6","64.0"
+"Never married","female","almost always",NA,"83.7",NA,NA,NA
+"Never married","female","almost never",NA,"0.9",NA,NA,NA
+"Never married","female","don't know","6.1","3.1","2.9","6.9","1.3"
+"Never married","female","no","18.8",NA,"92.4","9.8","32.9"
+"Never married","female","sometimes",NA,"12.2",NA,NA,NA
+"Never married","female","yes","75.1",NA,"4.2","83.0","65.4"
+"Never married","male","almost always",NA,"77.3",NA,NA,NA
+"Never married","male","almost never",NA,"1.2",NA,NA,NA
+"Never married","male","don't know","6.5","2.6","4.1","9.5","1.3"
+"Never married","male","no","11.6",NA,"89.8","7.5","37.5"
+"Never married","male","sometimes",NA,"19.0",NA,NA,NA
+"Never married","male","yes","81.9",NA,"5.6","82.5","60.7"

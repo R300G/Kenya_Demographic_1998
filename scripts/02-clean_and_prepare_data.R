@@ -206,194 +206,8 @@ age_data_final <- age_data_final %>%
   select(age_group, gender, survey_answer, `can_a_healthy-looking_person_have_the_AIDS_vrius`, is_AIDS_a_fatal_disease, can_AIDS_be_cured, can_the_AIDS_virus_be_transmitted_from_mother_to_child, do_you_know_someone_with_AIDS_or_who_died_of_AIDS) %>%
   clean_names()
 
-##save age_data_final to ‘outputs/data/cleaned_age_data.csv’.
-#### What's next? ####
+write.csv(age_data_final, "age_cleaned_data.csv",row.names = FALSE) ##save age_data_final to ‘outputs/data/cleaned_age_data.csv’.
 
-# data cleaning and manipulation for residence
-
-res_data_male <-
-  raw_data_male %>%
-  slice(30:31) %>%
-  select(-total) %>%
-  rename("residence" = "background_characteristic")
-res_data_female <-
-  raw_data_female %>%
-  slice(29:31) %>%
-  select(-total) %>%
-  rename("residence" = "background_characteristic")
-m33 <- res_data_male[, c(1, 2)] %>%
-  dplyr::rename("can_a_healthy-looking_person_have_the_AIDS_vrius" = "can_a_healthy-looking_person_have_the_AIDS_vrius_no") %>%
-  mutate(survey_answer = "no") %>%
-  mutate(gender = "male")
-
-m34 <- res_data_male[, c(1, 3)] %>%
-  dplyr::rename("can_a_healthy-looking_person_have_the_AIDS_vrius" = "can_a_healthy-looking_person_have_the_AIDS_vrius_yes") %>%
-  mutate(survey_answer = "yes") %>%
-  mutate(gender = "male")
-
-m35 <- res_data_male[, c(1, 4)] %>%
-  dplyr::rename("can_a_healthy-looking_person_have_the_AIDS_vrius" = "can_a_healthy-looking_person_have_the_AIDS_vrius_dont_know") %>%
-  mutate(survey_answer = "don't know") %>%
-  mutate(gender = "male")
-
-m36 <- res_data_male[, c(1, 5)] %>%
-  dplyr::rename("is_AIDS_a_fatal_disease" = "is_AIDS_a_fatal_disease_almost_never") %>%
-  mutate(survey_answer = "almost never") %>%
-  mutate(gender = "male")
-
-m37 <- res_data_male[, c(1, 6)] %>%
-  dplyr::rename("is_AIDS_a_fatal_disease" = "is_AIDS_a_fatal_disease_some_times") %>%
-  mutate(survey_answer = "sometimes") %>%
-  mutate(gender = "male")
-
-m38 <- res_data_male[, c(1, 7)] %>%
-  dplyr::rename("is_AIDS_a_fatal_disease" = "is_AIDS_a_fatal_disease_almost_always") %>%
-  mutate(survey_answer = "almost always") %>%
-  mutate(gender = "male")
-
-m39 <- res_data_male[, c(1, 8)] %>%
-  dplyr::rename("is_AIDS_a_fatal_disease" = "is_AIDS_a_fatal_disease_dont_know") %>%
-  mutate(survey_answer = "don't know") %>%
-  mutate(gender = "male")
-
-m40 <- res_data_male[, c(1, 9)] %>%
-  dplyr::rename("can_AIDS_be_cured" = "can_AIDS_be_cured_no") %>%
-  mutate(survey_answer = "no") %>%
-  mutate(gender = "male")
-
-m41 <- res_data_male[, c(1, 10)] %>%
-  dplyr::rename("can_AIDS_be_cured" = "can_AIDS_be_cured_yes") %>%
-  mutate(survey_answer = "yes") %>%
-  mutate(gender = "male")
-
-m42 <- res_data_male[, c(1, 11)] %>%
-  dplyr::rename("can_AIDS_be_cured" = "can_AIDS_be_cured_dont_know") %>%
-  mutate(survey_answer = "don't know") %>%
-  mutate(gender = "male")
-
-m43 <- res_data_male[, c(1, 12)] %>%
-  dplyr::rename("can_the_AIDS_virus_be_transmitted_from_mother_to_child" = "can_the_AIDS_virus_be_transmitted_from_mother_to_child_no") %>%
-  mutate(survey_answer = "no") %>%
-  mutate(gender = "male")
-
-m44 <- res_data_male[, c(1, 13)] %>%
-  dplyr::rename("can_the_AIDS_virus_be_transmitted_from_mother_to_child" = "can_the_AIDS_virus_be_transmitted_from_mother_to_child_yes") %>%
-  mutate(survey_answer = "yes") %>%
-  mutate(gender = "male")
-
-m45 <- res_data_male[, c(1, 14)] %>%
-  dplyr::rename("can_the_AIDS_virus_be_transmitted_from_mother_to_child" = "can_the_AIDS_virus_be_transmitted_from_mother_to_child_dont_know") %>%
-  mutate(survey_answer = "don't know") %>%
-  mutate(gender = "male")
-
-m46 <- res_data_male[, c(1, 15)] %>%
-  dplyr::rename("do_you_know_someone_with_AIDS_or_who_died_of_AIDS" = "do_you_know_someone_with_AIDS_or_who_died_of_AIDS_no") %>%
-  mutate(survey_answer = "no") %>%
-  mutate(gender = "male")
-
-m47 <- res_data_male[, c(1, 16)] %>%
-  dplyr::rename("do_you_know_someone_with_AIDS_or_who_died_of_AIDS" = "do_you_know_someone_with_AIDS_or_who_died_of_AIDS_yes") %>%
-  mutate(survey_answer = "yes") %>%
-  mutate(gender = "male")
-
-m48 <- res_data_male[, c(1, 17)] %>%
-  dplyr::rename("do_you_know_someone_with_AIDS_or_who_died_of_AIDS" = "do_you_know_someone_with_AIDS_or_who_died_of_AIDS_dont_know") %>%
-  mutate(survey_answer = "don't know") %>%
-  mutate(gender = "male")
-
-f33 <- res_data_female[, c(1, 2)] %>%
-  dplyr::rename("can_a_healthy-looking_person_have_the_AIDS_vrius" = "can_a_healthy-looking_person_have_the_AIDS_vrius_no") %>%
-  mutate(survey_answer = "no") %>%
-  mutate(gender = "female")
-
-f34 <- res_data_female[, c(1, 3)] %>%
-  dplyr::rename("can_a_healthy-looking_person_have_the_AIDS_vrius" = "can_a_healthy-looking_person_have_the_AIDS_vrius_yes") %>%
-  mutate(survey_answer = "yes") %>%
-  mutate(gender = "female")
-
-f35 <- res_data_female[, c(1, 4)] %>%
-  dplyr::rename("can_a_healthy-looking_person_have_the_AIDS_vrius" = "can_a_healthy-looking_person_have_the_AIDS_vrius_dont_know") %>%
-  mutate(survey_answer = "don't know") %>%
-  mutate(gender = "female")
-
-f36 <- res_data_female[, c(1, 5)] %>%
-  dplyr::rename("is_AIDS_a_fatal_disease" = "is_AIDS_a_fatal_disease_almost_never") %>%
-  mutate(survey_answer = "almost never") %>%
-  mutate(gender = "female")
-
-f37 <- res_data_female[, c(1, 6)] %>%
-  dplyr::rename("is_AIDS_a_fatal_disease" = "is_AIDS_a_fatal_disease_some_times") %>%
-  mutate(survey_answer = "sometimes") %>%
-  mutate(gender = "female")
-
-f38 <- res_data_female[, c(1, 7)] %>%
-  dplyr::rename("is_AIDS_a_fatal_disease" = "is_AIDS_a_fatal_disease_almost_always") %>%
-  mutate(survey_answer = "almost always") %>%
-  mutate(gender = "female")
-
-f39 <- res_data_female[, c(1, 8)] %>%
-  dplyr::rename("is_AIDS_a_fatal_disease" = "is_AIDS_a_fatal_disease_dont_know") %>%
-  mutate(survey_answer = "don't know") %>%
-  mutate(gender = "female")
-
-f40 <- res_data_female[, c(1, 9)] %>%
-  dplyr::rename("can_AIDS_be_cured" = "can_AIDS_be_cured_no") %>%
-  mutate(survey_answer = "no") %>%
-  mutate(gender = "female")
-
-f41 <- res_data_female[, c(1, 10)] %>%
-  dplyr::rename("can_AIDS_be_cured" = "can_AIDS_be_cured_yes") %>%
-  mutate(survey_answer = "yes") %>%
-  mutate(gender = "female")
-
-f42 <- res_data_female[, c(1, 11)] %>%
-  dplyr::rename("can_AIDS_be_cured" = "can_AIDS_be_cured_dont_know") %>%
-  mutate(survey_answer = "don't know") %>%
-  mutate(gender = "female")
-
-f43 <- res_data_female[, c(1, 12)] %>%
-  dplyr::rename("can_the_AIDS_virus_be_transmitted_from_mother_to_child" = "can_the_AIDS_virus_be_transmitted_from_mother_to_child_no") %>%
-  mutate(survey_answer = "no") %>%
-  mutate(gender = "female")
-
-f44 <- res_data_female[, c(1, 13)] %>%
-  dplyr::rename("can_the_AIDS_virus_be_transmitted_from_mother_to_child" = "can_the_AIDS_virus_be_transmitted_from_mother_to_child_yes") %>%
-  mutate(survey_answer = "yes") %>%
-  mutate(gender = "female")
-
-f45 <- res_data_female[, c(1, 14)] %>%
-  dplyr::rename("can_the_AIDS_virus_be_transmitted_from_mother_to_child" = "can_the_AIDS_virus_be_transmitted_from_mother_to_child_dont_know") %>%
-  mutate(survey_answer = "don't know") %>%
-  mutate(gender = "female")
-
-f46 <- res_data_female[, c(1, 15)] %>%
-  dplyr::rename("do_you_know_someone_with_AIDS_or_who_died_of_AIDS" = "do_you_know_someone_with_AIDS_or_who_died_of_AIDS_no") %>%
-  mutate(survey_answer = "no") %>%
-  mutate(gender = "female")
-
-f47 <- res_data_female[, c(1, 16)] %>%
-  dplyr::rename("do_you_know_someone_with_AIDS_or_who_died_of_AIDS" = "do_you_know_someone_with_AIDS_or_who_died_of_AIDS_yes") %>%
-  mutate(survey_answer = "yes") %>%
-  mutate(gender = "female")
-
-f48 <- res_data_female[, c(1, 17)] %>%
-  dplyr::rename("do_you_know_someone_with_AIDS_or_who_died_of_AIDS" = "do_you_know_someone_with_AIDS_or_who_died_of_AIDS_dont_know") %>%
-  mutate(survey_answer = "don't know") %>%
-  mutate(gender = "female")
-
-res_data_list <- list(m1, m2, m3, m4, m5, m6, m7, m8, m9, m10, m11, m12, m13, m14, m15, m16, f1, f2, f3, f4, f5, f6, f7, f8, f9, f10, f11, f12, f13, f14, f15, f16)
-res_data_final <- 
-  Reduce(plyr::rbind.fill, res_data_list)
-res_data_final <- res_data_final %>%
-  group_by(residence, gender, survey_answer) %>%
-  fill(c("can_a_healthy-looking_person_have_the_AIDS_vrius", "is_AIDS_a_fatal_disease", "can_AIDS_be_cured", "can_the_AIDS_virus_be_transmitted_from_mother_to_child", "do_you_know_someone_with_AIDS_or_who_died_of_AIDS"), .direction = "updown") %>%
-  slice(1)
-res_data_final <- res_data_final %>%
-  filter(!is.na(residence)) %>%
-  select(residence, gender, survey_answer, `can_a_healthy-looking_person_have_the_AIDS_vrius`, is_AIDS_a_fatal_disease, can_AIDS_be_cured, can_the_AIDS_virus_be_transmitted_from_mother_to_child, do_you_know_someone_with_AIDS_or_who_died_of_AIDS) %>%
-  clean_names()
-
-view(res_data_final) ##save res_data_final to ‘outputs/data/cleaned_res_data.csv’.
 
 # data cleaning and manipulation for education
 
@@ -578,7 +392,194 @@ educ_data_final <- educ_data_final %>%
   select(education, gender, survey_answer, `can_a_healthy-looking_person_have_the_AIDS_vrius`, is_AIDS_a_fatal_disease, can_AIDS_be_cured, can_the_AIDS_virus_be_transmitted_from_mother_to_child, do_you_know_someone_with_AIDS_or_who_died_of_AIDS) %>%
   clean_names()
 
-write.csv(educ_data_final, "educ_data_final.csv",row.names = FALSE)
 
-##save educ_data_final to ‘outputs/data/educ_data_final.csv’.
+write.csv(educ_data_final, "educ_cleaned_data.csv",row.names = FALSE)  ##save educ_data_final to ‘outputs/data/educ_data_final.csv’.
+
+# data cleaning and manipulation for residence
+
+res_data_male <-
+  raw_data_male %>%
+  slice(30:31) %>%
+  select(-total) %>%
+  rename("residence" = "background_characteristic")
+res_data_female <-
+  raw_data_female %>%
+  slice(29:31) %>%
+  select(-total) %>%
+  rename("residence" = "background_characteristic")
+m33 <- res_data_male[, c(1, 2)] %>%
+  dplyr::rename("can_a_healthy-looking_person_have_the_AIDS_vrius" = "can_a_healthy-looking_person_have_the_AIDS_vrius_no") %>%
+  mutate(survey_answer = "no") %>%
+  mutate(gender = "male")
+
+m34 <- res_data_male[, c(1, 3)] %>%
+  dplyr::rename("can_a_healthy-looking_person_have_the_AIDS_vrius" = "can_a_healthy-looking_person_have_the_AIDS_vrius_yes") %>%
+  mutate(survey_answer = "yes") %>%
+  mutate(gender = "male")
+
+m35 <- res_data_male[, c(1, 4)] %>%
+  dplyr::rename("can_a_healthy-looking_person_have_the_AIDS_vrius" = "can_a_healthy-looking_person_have_the_AIDS_vrius_dont_know") %>%
+  mutate(survey_answer = "don't know") %>%
+  mutate(gender = "male")
+
+m36 <- res_data_male[, c(1, 5)] %>%
+  dplyr::rename("is_AIDS_a_fatal_disease" = "is_AIDS_a_fatal_disease_almost_never") %>%
+  mutate(survey_answer = "almost never") %>%
+  mutate(gender = "male")
+
+m37 <- res_data_male[, c(1, 6)] %>%
+  dplyr::rename("is_AIDS_a_fatal_disease" = "is_AIDS_a_fatal_disease_some_times") %>%
+  mutate(survey_answer = "sometimes") %>%
+  mutate(gender = "male")
+
+m38 <- res_data_male[, c(1, 7)] %>%
+  dplyr::rename("is_AIDS_a_fatal_disease" = "is_AIDS_a_fatal_disease_almost_always") %>%
+  mutate(survey_answer = "almost always") %>%
+  mutate(gender = "male")
+
+m39 <- res_data_male[, c(1, 8)] %>%
+  dplyr::rename("is_AIDS_a_fatal_disease" = "is_AIDS_a_fatal_disease_dont_know") %>%
+  mutate(survey_answer = "don't know") %>%
+  mutate(gender = "male")
+
+m40 <- res_data_male[, c(1, 9)] %>%
+  dplyr::rename("can_AIDS_be_cured" = "can_AIDS_be_cured_no") %>%
+  mutate(survey_answer = "no") %>%
+  mutate(gender = "male")
+
+m41 <- res_data_male[, c(1, 10)] %>%
+  dplyr::rename("can_AIDS_be_cured" = "can_AIDS_be_cured_yes") %>%
+  mutate(survey_answer = "yes") %>%
+  mutate(gender = "male")
+
+m42 <- res_data_male[, c(1, 11)] %>%
+  dplyr::rename("can_AIDS_be_cured" = "can_AIDS_be_cured_dont_know") %>%
+  mutate(survey_answer = "don't know") %>%
+  mutate(gender = "male")
+
+m43 <- res_data_male[, c(1, 12)] %>%
+  dplyr::rename("can_the_AIDS_virus_be_transmitted_from_mother_to_child" = "can_the_AIDS_virus_be_transmitted_from_mother_to_child_no") %>%
+  mutate(survey_answer = "no") %>%
+  mutate(gender = "male")
+
+m44 <- res_data_male[, c(1, 13)] %>%
+  dplyr::rename("can_the_AIDS_virus_be_transmitted_from_mother_to_child" = "can_the_AIDS_virus_be_transmitted_from_mother_to_child_yes") %>%
+  mutate(survey_answer = "yes") %>%
+  mutate(gender = "male")
+
+m45 <- res_data_male[, c(1, 14)] %>%
+  dplyr::rename("can_the_AIDS_virus_be_transmitted_from_mother_to_child" = "can_the_AIDS_virus_be_transmitted_from_mother_to_child_dont_know") %>%
+  mutate(survey_answer = "don't know") %>%
+  mutate(gender = "male")
+
+m46 <- res_data_male[, c(1, 15)] %>%
+  dplyr::rename("do_you_know_someone_with_AIDS_or_who_died_of_AIDS" = "do_you_know_someone_with_AIDS_or_who_died_of_AIDS_no") %>%
+  mutate(survey_answer = "no") %>%
+  mutate(gender = "male")
+
+m47 <- res_data_male[, c(1, 16)] %>%
+  dplyr::rename("do_you_know_someone_with_AIDS_or_who_died_of_AIDS" = "do_you_know_someone_with_AIDS_or_who_died_of_AIDS_yes") %>%
+  mutate(survey_answer = "yes") %>%
+  mutate(gender = "male")
+
+m48 <- res_data_male[, c(1, 17)] %>%
+  dplyr::rename("do_you_know_someone_with_AIDS_or_who_died_of_AIDS" = "do_you_know_someone_with_AIDS_or_who_died_of_AIDS_dont_know") %>%
+  mutate(survey_answer = "don't know") %>%
+  mutate(gender = "male")
+
+f33 <- res_data_female[, c(1, 2)] %>%
+  dplyr::rename("can_a_healthy-looking_person_have_the_AIDS_vrius" = "can_a_healthy-looking_person_have_the_AIDS_vrius_no") %>%
+  mutate(survey_answer = "no") %>%
+  mutate(gender = "female")
+
+f34 <- res_data_female[, c(1, 3)] %>%
+  dplyr::rename("can_a_healthy-looking_person_have_the_AIDS_vrius" = "can_a_healthy-looking_person_have_the_AIDS_vrius_yes") %>%
+  mutate(survey_answer = "yes") %>%
+  mutate(gender = "female")
+
+f35 <- res_data_female[, c(1, 4)] %>%
+  dplyr::rename("can_a_healthy-looking_person_have_the_AIDS_vrius" = "can_a_healthy-looking_person_have_the_AIDS_vrius_dont_know") %>%
+  mutate(survey_answer = "don't know") %>%
+  mutate(gender = "female")
+
+f36 <- res_data_female[, c(1, 5)] %>%
+  dplyr::rename("is_AIDS_a_fatal_disease" = "is_AIDS_a_fatal_disease_almost_never") %>%
+  mutate(survey_answer = "almost never") %>%
+  mutate(gender = "female")
+
+f37 <- res_data_female[, c(1, 6)] %>%
+  dplyr::rename("is_AIDS_a_fatal_disease" = "is_AIDS_a_fatal_disease_some_times") %>%
+  mutate(survey_answer = "sometimes") %>%
+  mutate(gender = "female")
+
+f38 <- res_data_female[, c(1, 7)] %>%
+  dplyr::rename("is_AIDS_a_fatal_disease" = "is_AIDS_a_fatal_disease_almost_always") %>%
+  mutate(survey_answer = "almost always") %>%
+  mutate(gender = "female")
+
+f39 <- res_data_female[, c(1, 8)] %>%
+  dplyr::rename("is_AIDS_a_fatal_disease" = "is_AIDS_a_fatal_disease_dont_know") %>%
+  mutate(survey_answer = "don't know") %>%
+  mutate(gender = "female")
+
+f40 <- res_data_female[, c(1, 9)] %>%
+  dplyr::rename("can_AIDS_be_cured" = "can_AIDS_be_cured_no") %>%
+  mutate(survey_answer = "no") %>%
+  mutate(gender = "female")
+
+f41 <- res_data_female[, c(1, 10)] %>%
+  dplyr::rename("can_AIDS_be_cured" = "can_AIDS_be_cured_yes") %>%
+  mutate(survey_answer = "yes") %>%
+  mutate(gender = "female")
+
+f42 <- res_data_female[, c(1, 11)] %>%
+  dplyr::rename("can_AIDS_be_cured" = "can_AIDS_be_cured_dont_know") %>%
+  mutate(survey_answer = "don't know") %>%
+  mutate(gender = "female")
+
+f43 <- res_data_female[, c(1, 12)] %>%
+  dplyr::rename("can_the_AIDS_virus_be_transmitted_from_mother_to_child" = "can_the_AIDS_virus_be_transmitted_from_mother_to_child_no") %>%
+  mutate(survey_answer = "no") %>%
+  mutate(gender = "female")
+
+f44 <- res_data_female[, c(1, 13)] %>%
+  dplyr::rename("can_the_AIDS_virus_be_transmitted_from_mother_to_child" = "can_the_AIDS_virus_be_transmitted_from_mother_to_child_yes") %>%
+  mutate(survey_answer = "yes") %>%
+  mutate(gender = "female")
+
+f45 <- res_data_female[, c(1, 14)] %>%
+  dplyr::rename("can_the_AIDS_virus_be_transmitted_from_mother_to_child" = "can_the_AIDS_virus_be_transmitted_from_mother_to_child_dont_know") %>%
+  mutate(survey_answer = "don't know") %>%
+  mutate(gender = "female")
+
+f46 <- res_data_female[, c(1, 15)] %>%
+  dplyr::rename("do_you_know_someone_with_AIDS_or_who_died_of_AIDS" = "do_you_know_someone_with_AIDS_or_who_died_of_AIDS_no") %>%
+  mutate(survey_answer = "no") %>%
+  mutate(gender = "female")
+
+f47 <- res_data_female[, c(1, 16)] %>%
+  dplyr::rename("do_you_know_someone_with_AIDS_or_who_died_of_AIDS" = "do_you_know_someone_with_AIDS_or_who_died_of_AIDS_yes") %>%
+  mutate(survey_answer = "yes") %>%
+  mutate(gender = "female")
+
+f48 <- res_data_female[, c(1, 17)] %>%
+  dplyr::rename("do_you_know_someone_with_AIDS_or_who_died_of_AIDS" = "do_you_know_someone_with_AIDS_or_who_died_of_AIDS_dont_know") %>%
+  mutate(survey_answer = "don't know") %>%
+  mutate(gender = "female")
+
+res_data_list <- list( m33, m34, m35, m36, m38, m39, m40, m41, m42, m43,m44, m45, m46, m47, m48, f33, f34, f35, f36, f38, f39, f40, f41, f42, f43, f44, f45, f46, f47, f48)
+res_data_final <- 
+  Reduce(plyr::rbind.fill, res_data_list)
+res_data_final <- res_data_final %>%
+  group_by(residence, gender, survey_answer) %>%
+  fill(c("can_a_healthy-looking_person_have_the_AIDS_vrius", "is_AIDS_a_fatal_disease", "can_AIDS_be_cured", "can_the_AIDS_virus_be_transmitted_from_mother_to_child", "do_you_know_someone_with_AIDS_or_who_died_of_AIDS"), .direction = "updown") %>%
+  slice(1)
+res_data_final <- res_data_final %>%
+  filter(!is.na(residence)) %>%
+  select(residence, gender, survey_answer, `can_a_healthy-looking_person_have_the_AIDS_vrius`, is_AIDS_a_fatal_disease, can_AIDS_be_cured, can_the_AIDS_virus_be_transmitted_from_mother_to_child, do_you_know_someone_with_AIDS_or_who_died_of_AIDS) %>%
+  clean_names()
+
+write.csv(res_data_final, "res_cleaned_data.csv",row.names = FALSE) ##save res_data_final to ‘outputs/data/cleaned_res_data.csv’.
+
+
 

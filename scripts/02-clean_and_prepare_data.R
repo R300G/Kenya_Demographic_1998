@@ -773,3 +773,4 @@ province_data_final <- get_data(34,40,33,39,"province")
 data_final <- 
   Reduce(rbind, list(age_data_final,education_data_final,residence_data_final,marital_status_data_final,province_data_final))
 rm(raw_data_female,raw_data_male,age_data_final,education_data_final,residence_data_final)
+write.csv(data_final, "outputs/data/cleaned_data.csv",row.names = FALSE) ##save data_final to ‘outputs/data/cleaned_age_data.csv’.

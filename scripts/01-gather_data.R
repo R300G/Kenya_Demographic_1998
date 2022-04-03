@@ -73,5 +73,5 @@ dhs_1998_p162_extract <-
     extra = "drop",
     fill = "right"
   )%>%select(-data)
-
+rm(dhs_1998,dhs_1998_p162,dhs_1998_p163)
 write.csv(dhs_1998_p162_extract, "outputs/data/raw_data_female.csv",row.names = FALSE)

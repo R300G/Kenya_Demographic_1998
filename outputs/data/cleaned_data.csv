@@ -1,259 +1,271 @@
-"background_characteristic_type","background_characteristic","gender","population_count","survey_answer","can_a_healthy_looking_person_have_the_aids_vrius","is_aids_a_fatal_disease","can_aids_be_cured","can_the_aids_virus_be_transmitted_from_mother_to_child","do_you_know_someone_with_aids_or_who_died_of_aids"
-"age group","15-19","female","1,827","almost always",NA,"83.4",NA,NA,NA
-"age group","15-19","female","1,827","almost never",NA,"0.8",NA,NA,NA
-"age group","15-19","female","1,827","don't know","7.7","3.7","2.8","8.7","1.7"
-"age group","15-19","female","1,827","no","24.1",NA,"92.6","11.2","36.0"
-"age group","15-19","female","1,827","sometimes",NA,"12.2",NA,NA,NA
-"age group","15-19","female","1,827","yes","68.1",NA,"4.1","79.6","61.8"
-"age group","15-19","male","805","almost always",NA,"76.7",NA,NA,NA
-"age group","15-19","male","805","almost never",NA,"1.0",NA,NA,NA
-"age group","15-19","male","805","don't know","9.5","2.8","4.9","12.0","1.6"
-"age group","15-19","male","805","no","15.5",NA,"89.2","9.0","42.7"
-"age group","15-19","male","805","sometimes",NA,"19.5",NA,NA,NA
-"age group","15-19","male","805","yes","75.0",NA,"5.6","78.6","54.9"
-"age group","20-24","female","1,537","almost always",NA,"87.4",NA,NA,NA
-"age group","20-24","female","1,537","almost never",NA,"0.7",NA,NA,NA
-"age group","20-24","female","1,537","don't know","5.3","1.6","3.1","4.3","0.7"
-"age group","20-24","female","1,537","no","11.9",NA,"92.8","4.6","28.2"
-"age group","20-24","female","1,537","sometimes",NA,"10.1",NA,NA,NA
-"age group","20-24","female","1,537","yes","82.9",NA,"3.4","91.0","70.6"
-"age group","20-24","male","581","almost always",NA,"80.8",NA,NA,NA
-"age group","20-24","male","581","almost never",NA,"0.8",NA,NA,NA
-"age group","20-24","male","581","don't know","3.2","1.3","4.6","5.4","1.6"
-"age group","20-24","male","581","no","7.3",NA,"90.2","6.2","32.8"
-"age group","20-24","male","581","sometimes",NA,"17.1",NA,NA,NA
-"age group","20-24","male","581","yes","89.4",NA,"4.7","87.3","65.2"
-"age group","25-29","female","1,356","almost always",NA,"85.6",NA,NA,NA
-"age group","25-29","female","1,356","almost never",NA,"1.0",NA,NA,NA
-"age group","25-29","female","1,356","don't know","4.5","2.0","2.1","5.2","0.9"
-"age group","25-29","female","1,356","no","12.6",NA,"94.1","5.1","23.1"
-"age group","25-29","female","1,356","sometimes",NA,"11.3",NA,NA,NA
-"age group","25-29","female","1,356","yes","82.9",NA,"3.6","89.5","75.7"
-"age group","25-29","male","462","almost always",NA,"80.1",NA,NA,NA
-"age group","25-29","male","462","almost never",NA,"1.0",NA,NA,NA
-"age group","25-29","male","462","don't know","3.6","1.3","4.4","7.2","0.8"
-"age group","25-29","male","462","no","6.8",NA,"89.1","4.7","25.5"
-"age group","25-29","male","462","sometimes",NA,"17.7",NA,NA,NA
-"age group","25-29","male","462","yes","89.2",NA,"6.0","87.5","73.7"
-"age group","30-39","female","1,962","almost always",NA,"85.7",NA,NA,NA
-"age group","30-39","female","1,962","almost never",NA,"0.4",NA,NA,NA
-"age group","30-39","female","1,962","don't know","6.3","1.7","2.3","5.2","1.3"
-"age group","30-39","female","1,962","no","10.6",NA,"93.3","5.9","22.3"
-"age group","30-39","female","1,962","sometimes",NA,"12.1",NA,NA,NA
-"age group","30-39","female","1,962","yes","83.1",NA,"4.0","87.8","76.2"
-"age group","30-39","male","789","almost always",NA,"78.6",NA,NA,NA
-"age group","30-39","male","789","almost never",NA,"0.9",NA,NA,NA
-"age group","30-39","male","789","don't know","5.0","2.3","4.0","7.1","1.4"
-"age group","30-39","male","789","no","5.4",NA,"92.5","3.7","19.7"
-"age group","30-39","male","789","sometimes",NA,"18.3",NA,NA,NA
-"age group","30-39","male","789","yes","89.7",NA,"3.1","88.6","78.8"
-"age group","40-49","female","1,122","almost always",NA,"84.3",NA,NA,NA
-"age group","40-49","female","1,122","almost never",NA,"0.5",NA,NA,NA
-"age group","40-49","female","1,122","don't know","8.0","2.8","4.5","8.6","1.6"
-"age group","40-49","female","1,122","no","12.1",NA,"92.2","8.7","21.4"
-"age group","40-49","female","1,122","sometimes",NA,"12.4",NA,NA,NA
-"age group","40-49","female","1,122","yes","80.0",NA,"2.8","82.1","76.7"
-"age group","40-49","male","565","almost always",NA,"79.6",NA,NA,NA
-"age group","40-49","male","565","almost never",NA,"0.8",NA,NA,NA
-"age group","40-49","male","565","don't know","7.1","2.8","4.7","8.3","1.9"
-"age group","40-49","male","565","no","6.4",NA,"91.4","4.8","19.7"
-"age group","40-49","male","565","sometimes",NA,"16.6",NA,NA,NA
-"age group","40-49","male","565","yes","86.4",NA,"3.3","86.6","78.2"
-"age group","50-54","male","183","almost always",NA,"82.9",NA,NA,NA
-"age group","50-54","male","183","almost never",NA,"0.0",NA,NA,NA
-"age group","50-54","male","183","don't know","11.8","2.8","6.2","13.7","3.2"
-"age group","50-54","male","183","no","3.8",NA,"87.6","5.7","16.6"
-"age group","50-54","male","183","sometimes",NA,"14.3",NA,NA,NA
-"age group","50-54","male","183","yes","84.4",NA,"6.2","79.5","79.8"
-"marital status","Currently married","female","4,785","almost always",NA,"86.0",NA,NA,NA
-"marital status","Currently married","female","4,785","almost never",NA,"0.6",NA,NA,NA
-"marital status","Currently married","female","4,785","don't know","6.5","2.0","2.8","6.1","1.2"
-"marital status","Currently married","female","4,785","no","12.9",NA,"93.4","5.9","24.1"
-"marital status","Currently married","female","4,785","sometimes",NA,"11.4",NA,NA,NA
-"marital status","Currently married","female","4,785","yes","80.6",NA,"3.4","87.4","74.3"
-"marital status","Currently married","male","1,784","almost always",NA,"81.2",NA,NA,NA
-"marital status","Currently married","male","1,784","almost never",NA,"0.6",NA,NA,NA
-"marital status","Currently married","male","1,784","don't know","6.0","1.9","4.8","7.7","1.8"
-"marital status","Currently married","male","1,784","no","5.5",NA,"91.5","4.5","19.7"
-"marital status","Currently married","male","1,784","sometimes",NA,"16.3",NA,NA,NA
-"marital status","Currently married","male","1,784","yes","88.4",NA,"3.3","87.1","78.2"
-"marital status","Formerly married","female","668","almost always",NA,"85.4",NA,NA,NA
-"marital status","Formerly married","female","668","almost never",NA,"0.5",NA,NA,NA
-"marital status","Formerly married","female","668","don't know","6.2","2.4","3.5","6.2","1.5"
-"marital status","Formerly married","female","668","no","12.0",NA,"92.7","6.9","23.4"
-"marital status","Formerly married","female","668","sometimes",NA,"11.8",NA,NA,NA
-"marital status","Formerly married","female","668","yes","81.8",NA,"3.2","85.9","75.2"
-"marital status","Formerly married","male","126","almost always",NA,"72.3",NA,NA,NA
-"marital status","Formerly married","male","126","almost never",NA,"0.0",NA,NA,NA
-"marital status","Formerly married","male","126","don't know","7.7","3.0","6.6","8.7","1.0"
-"marital status","Formerly married","male","126","no","11.5",NA,"82.1","4.7","35.1"
-"marital status","Formerly married","male","126","sometimes",NA,"24.7",NA,NA,NA
-"marital status","Formerly married","male","126","yes","80.8",NA,"10.4","86.6","64.0"
-"marital status","Never married","female","2,351","almost always",NA,"83.7",NA,NA,NA
-"marital status","Never married","female","2,351","almost never",NA,"0.9",NA,NA,NA
-"marital status","Never married","female","2,351","don't know","6.1","3.1","2.9","6.9","1.3"
-"marital status","Never married","female","2,351","no","18.8",NA,"92.4","9.8","32.9"
-"marital status","Never married","female","2,351","sometimes",NA,"12.2",NA,NA,NA
-"marital status","Never married","female","2,351","yes","75.1",NA,"4.2","83.0","65.4"
-"marital status","Never married","male","1,476","almost always",NA,"77.3",NA,NA,NA
-"marital status","Never married","male","1,476","almost never",NA,"1.2",NA,NA,NA
-"marital status","Never married","male","1,476","don't know","6.5","2.6","4.1","9.5","1.3"
-"marital status","Never married","male","1,476","no","11.6",NA,"89.8","7.5","37.5"
-"marital status","Never married","male","1,476","sometimes",NA,"19.0",NA,NA,NA
-"marital status","Never married","male","1,476","yes","81.9",NA,"5.6","82.5","60.7"
-"residence","Rural","female","5,983","almost always",NA,"84.7",NA,NA,NA
-"residence","Rural","female","5,983","almost never",NA,"0.7",NA,NA,NA
-"residence","Rural","female","5,983","don't know","7.3","2.6","3.1","7.1","1.3"
-"residence","Rural","female","5,983","no","16.7",NA,"92.7","7.9","28.2"
-"residence","Rural","female","5,983","sometimes",NA,"12.0",NA,NA,NA
-"residence","Rural","female","5,983","yes","75.9",NA,"3.6","84.5","70.2"
-"residence","Rural","male","2,477","almost always",NA,"78.9",NA,NA,NA
-"residence","Rural","male","2,477","almost never",NA,"0.9",NA,NA,NA
-"residence","Rural","male","2,477","don't know","7.6","2.3","5.5","10.1","1.6"
-"residence","Rural","male","2,477","no","9.5",NA,"88.9","6.5","29.9"
-"residence","Rural","male","2,477","sometimes",NA,"17.8",NA,NA,NA
-"residence","Rural","male","2,477","yes","82.8",NA,"5.2","82.7","68.0"
-"residence","Urban","female","1,821","almost always",NA,"87.3",NA,NA,NA
-"residence","Urban","female","1,821","almost never",NA,"0.5",NA,NA,NA
-"residence","Urban","female","1,821","don't know","3.1","1.5","1.9","4.0","1.0"
-"residence","Urban","female","1,821","no","7.5",NA,"93.9","4.7","21.6"
-"residence","Urban","female","1,821","sometimes",NA,"10.5",NA,NA,NA
-"residence","Urban","female","1,821","yes","89.4",NA,"3.7","90.8","76.6"
-"residence","Urban","male","909","almost always",NA,"79.7",NA,NA,NA
-"residence","Urban","male","909","almost never",NA,"0.7",NA,NA,NA
-"residence","Urban","male","909","don't know","2.7","1.9","2.2","4.4","1.5"
-"residence","Urban","male","909","no","5.4",NA,"94.4","3.9","22.9"
-"residence","Urban","male","909","sometimes",NA,"17.7",NA,NA,NA
-"residence","Urban","male","909","yes","91.9",NA,"3.0","91.5","75.6"
-"province","Central","female","830","almost always",NA,"82.4",NA,NA,NA
-"province","Central","female","830","almost never",NA,"1.4",NA,NA,NA
-"province","Central","female","830","don't know","4.2","2.3","0.9","7.7","1.3"
-"province","Central","female","830","no","5.7",NA,"94.6","7.7","18.8"
-"province","Central","female","830","sometimes",NA,"13.8",NA,NA,NA
-"province","Central","female","830","yes","90.1",NA,"3.9","83.9","79.7"
-"province","Central","male","338","almost always",NA,"62.8",NA,NA,NA
-"province","Central","male","338","almost never",NA,"3.7",NA,NA,NA
-"province","Central","male","338","don't know","7.4","3.8","4.2","18.2","2.9"
-"province","Central","male","338","no","9.4",NA,"79.3","12.8","20.2"
-"province","Central","male","338","sometimes",NA,"29.7",NA,NA,NA
-"province","Central","male","338","yes","83.2",NA,"16.0","69.0","76.7"
-"province","Coast","female","597","almost always",NA,"90.3",NA,NA,NA
-"province","Coast","female","597","almost never",NA,"0.5",NA,NA,NA
-"province","Coast","female","597","don't know","8.6","1.0","1.2","12.8","1.2"
-"province","Coast","female","597","no","10.3",NA,"95.5","7.6","33.2"
-"province","Coast","female","597","sometimes",NA,"8.0",NA,NA,NA
-"province","Coast","female","597","yes","81.1",NA,"2.0","78.7","64.8"
-"province","Coast","male","240","almost always",NA,"89.2",NA,NA,NA
-"province","Coast","male","240","almost never",NA,"0.7",NA,NA,NA
-"province","Coast","male","240","don't know","4.2","0.9","4.5","8.7","1.0"
-"province","Coast","male","240","no","8.5",NA,"88.2","5.7","26.4"
-"province","Coast","male","240","sometimes",NA,"9.0",NA,NA,NA
-"province","Coast","male","240","yes","87.1",NA,"5.7","84.4","70.7"
-"province","Eastern","female","1,378","almost always",NA,"72.4",NA,NA,NA
-"province","Eastern","female","1,378","almost never",NA,"0.8",NA,NA,NA
-"province","Eastern","female","1,378","don't know","6.7","4.6","3.8","5.9","1.2"
-"province","Eastern","female","1,378","no","21.0",NA,"90.4","5.7","34.4"
-"province","Eastern","female","1,378","sometimes",NA,"22.2",NA,NA,NA
-"province","Eastern","female","1,378","yes","72.3",NA,"5.5","88.0","64.4"
-"province","Eastern","male","633","almost always",NA,"75.4",NA,NA,NA
-"province","Eastern","male","633","almost never",NA,"1.0",NA,NA,NA
-"province","Eastern","male","633","don't know","11.5","3.4","6.5","13.2","0.8"
-"province","Eastern","male","633","no","13.6",NA,"89.1","4.2","41.5"
-"province","Eastern","male","633","sometimes",NA,"20.2",NA,NA,NA
-"province","Eastern","male","633","yes","74.9",NA,"4.5","82.6","57.7"
-"province","Nairobi","female","768","almost always",NA,"92.6",NA,NA,NA
-"province","Nairobi","female","768","almost never",NA,"0.2",NA,NA,NA
-"province","Nairobi","female","768","don't know","2.4","1.0","2.2","3.3","1.0"
-"province","Nairobi","female","768","no","6.5",NA,"93.5","4.5","21.5"
-"province","Nairobi","female","768","sometimes",NA,"6.2",NA,NA,NA
-"province","Nairobi","female","768","yes","91.1",NA,"4.1","92.1","77.5"
-"province","Nairobi","male","429","almost always",NA,"75.4",NA,NA,NA
-"province","Nairobi","male","429","almost never",NA,"0.6",NA,NA,NA
-"province","Nairobi","male","429","don't know","1.8","3.0","3.0","3.6","0.6"
-"province","Nairobi","male","429","no","6.0",NA,"95.8","6.0","24.6"
-"province","Nairobi","male","429","sometimes",NA,"21.0",NA,NA,NA
-"province","Nairobi","male","429","yes","92.2",NA,"1.2","90.4","74.9"
-"province","Nyanza","female","1,687","almost always",NA,"91.3",NA,NA,NA
-"province","Nyanza","female","1,687","almost never",NA,"0.2",NA,NA,NA
-"province","Nyanza","female","1,687","don't know","5.3","0.7","3.0","4.6","1.3"
-"province","Nyanza","female","1,687","no","10.8",NA,"92.9","5.2","20.7"
-"province","Nyanza","female","1,687","sometimes",NA,"7.9",NA,NA,NA
-"province","Nyanza","female","1,687","yes","83.9",NA,"4.0","89.9","77.7"
-"province","Nyanza","male","640","almost always",NA,"82.3",NA,NA,NA
-"province","Nyanza","male","640","almost never",NA,"0.0",NA,NA,NA
-"province","Nyanza","male","640","don't know","4.5","0.9","5.1","3.6","3.0"
-"province","Nyanza","male","640","no","10.8",NA,"90.3","6.5","22.7"
-"province","Nyanza","male","640","sometimes",NA,"16.8",NA,NA,NA
-"province","Nyanza","male","640","yes","84.7",NA,"4.3","89.7","74.2"
-"province","Rift Valley","female","1,648","almost always",NA,"84.0",NA,NA,NA
-"province","Rift Valley","female","1,648","almost never",NA,"1.2",NA,NA,NA
-"province","Rift Valley","female","1,648","don't know","11.0","4.1","4.1","7.5","1.6"
-"province","Rift Valley","female","1,648","no","14.3",NA,"92.1","7.1","34.9"
-"province","Rift Valley","female","1,648","sometimes",NA,"10.6",NA,NA,NA
-"province","Rift Valley","female","1,648","yes","74.7",NA,"2.8","84.3","62.9"
-"province","Rift Valley","male","753","almost always",NA,"76.8",NA,NA,NA
-"province","Rift Valley","male","753","almost never",NA,"0.7",NA,NA,NA
-"province","Rift Valley","male","753","don't know","7.4","2.7","5.8","8.8","1.4"
-"province","Rift Valley","male","753","no","5.5",NA,"90.5","3.0","30.7"
-"province","Rift Valley","male","753","sometimes",NA,"19.8",NA,NA,NA
-"province","Rift Valley","male","753","yes","87.0",NA,"2.8","86.4","67.1"
-"province","Western","female","896","almost always",NA,"89.3",NA,NA,NA
-"province","Western","female","896","almost never",NA,"0.2",NA,NA,NA
-"province","Western","female","896","don't know","3.1","1.1","2.4","5.2","1.0"
-"province","Western","female","896","no","30.3",NA,"95.4","14.5","18.5"
-"province","Western","female","896","sometimes",NA,"9.5",NA,NA,NA
-"province","Western","female","896","yes","66.6",NA,"2.2","80.0","80.1"
-"province","Western","male","354","almost always",NA,"98.4",NA,NA,NA
-"province","Western","male","354","almost never",NA,"0.0",NA,NA,NA
-"province","Western","male","354","don't know","3.7","0.0","0.2","5.2","1.1"
-"province","Western","male","354","no","2.9",NA,"98.4","6.7","20.7"
-"province","Western","male","354","sometimes",NA,"1.6",NA,NA,NA
-"province","Western","male","354","yes","93.5",NA,"1.4","87.2","78.2"
-"education","No education","female","860","almost always",NA,"84.8",NA,NA,NA
-"education","No education","female","860","almost never",NA,"0.4",NA,NA,NA
-"education","No education","female","860","don't know","15.3","4.8","5.9","14.9","1.8"
-"education","No education","female","860","no","17.1",NA,"90.9","11.7","33.0"
-"education","No education","female","860","sometimes",NA,"9.7",NA,NA,NA
-"education","No education","female","860","yes","67.6",NA,"2.3","72.4","65.1"
-"education","No education","male","128","almost always",NA,"74.8",NA,NA,NA
-"education","No education","male","128","almost never",NA,"0.2",NA,NA,NA
-"education","No education","male","128","don't know","28.2","10.2","14.8","33.2","2.6"
-"education","No education","male","128","no","11.4",NA,"82.0","9.0","48.8"
-"education","No education","male","128","sometimes",NA,"14.5",NA,NA,NA
-"education","No education","male","128","yes","60.1",NA,"2.6","57.2","47.7"
-"education","Primary complete","female","1,773","almost always",NA,"85.1",NA,NA,NA
-"education","Primary complete","female","1,773","almost never",NA,"0.7",NA,NA,NA
-"education","Primary complete","female","1,773","don't know","3.6","1.5","2.4","3.6","0.9"
-"education","Primary complete","female","1,773","no","14.2",NA,"93.2","5.5","23.3"
-"education","Primary complete","female","1,773","sometimes",NA,"12.6",NA,NA,NA
-"education","Primary complete","female","1,773","yes","82.2",NA,"3.9","90.4","75.5"
-"education","Primary complete","male","833","almost always",NA,"82.0",NA,NA,NA
-"education","Primary complete","male","833","almost never",NA,"0.7",NA,NA,NA
-"education","Primary complete","male","833","don't know","4.5","2.3","5.0","8.5","1.1"
-"education","Primary complete","male","833","no","8.6",NA,"89.0","5.5","27.5"
-"education","Primary complete","male","833","sometimes",NA,"14.9",NA,NA,NA
-"education","Primary complete","male","833","yes","86.9",NA,"5.2","85.5","71.0"
-"education","Primary incomplete","female","2,871","almost always",NA,"85.4",NA,NA,NA
-"education","Primary incomplete","female","2,871","almost never",NA,"0.6",NA,NA,NA
-"education","Primary incomplete","female","2,871","don't know","8.5","2.7","3.2","8.6","1.5"
-"education","Primary incomplete","female","2,871","no","19.9",NA,"92.4","9.7","30.7"
-"education","Primary incomplete","female","2,871","sometimes",NA,"11.2",NA,NA,NA
-"education","Primary incomplete","female","2,871","yes","71.6",NA,"4.0","81.2","67.5"
-"education","Primary incomplete","male","1,037","almost always",NA,"78.7",NA,NA,NA
-"education","Primary incomplete","male","1,037","almost never",NA,"1.1",NA,NA,NA
-"education","Primary incomplete","male","1,037","don't know","10.6","2.6","6.1","12.8","2.0"
-"education","Primary incomplete","male","1,037","no","14.3",NA,"87.7","8.8","34.3"
-"education","Primary incomplete","male","1,037","sometimes",NA,"17.6",NA,NA,NA
-"education","Primary incomplete","male","1,037","yes","75.1",NA,"5.9","77.1","63.1"
-"education","Secondary+","female","2,300","almost always",NA,"85.4",NA,NA,NA
-"education","Secondary+","female","2,300","almost never",NA,"0.8",NA,NA,NA
-"education","Secondary+","female","2,300","don't know","2.4","1.6","1.7","2.4","1.0"
-"education","Secondary+","female","2,300","no","7.4",NA,"94.5","3.5","22.0"
-"education","Secondary+","female","2,300","sometimes",NA,"12.1",NA,NA,NA
-"education","Secondary+","female","2,300","yes","90.2",NA,"3.5","93.6","76.5"
-"education","Secondary+","male","1,388","almost always",NA,"78.1",NA,NA,NA
-"education","Secondary+","male","1,388","almost never",NA,"0.8",NA,NA,NA
-"education","Secondary+","male","1,388","don't know","2.1","1.2","2.3","3.2","1.4"
-"education","Secondary+","male","1,388","no","3.6",NA,"94.0","3.4","21.8"
-"education","Secondary+","male","1,388","sometimes",NA,"20.0",NA,NA,NA
-"education","Secondary+","male","1,388","yes","94.2",NA,"3.3","93.3","76.7"
+"demographic_info","demographic_type","gender","survey_answer","chances_of_getting_aids","population_count"
+"15-19","age group","male","no_risk_at_all","45.9","1,827"
+"20-24","age group","male","no_risk_at_all","31.7","1,537"
+"25-29","age group","male","no_risk_at_all","25.1","1,356"
+"30-39","age group","male","no_risk_at_all","26.2","1,962"
+"40-49","age group","male","no_risk_at_all","29.3","1,122"
+"15-19","age group","male","small","34.1","1,827"
+"20-24","age group","male","small","34.4","1,537"
+"25-29","age group","male","small","33.3","1,356"
+"30-39","age group","male","small","33.2","1,962"
+"40-49","age group","male","small","36.8","1,122"
+"15-19","age group","male","moderate","13.2","1,827"
+"20-24","age group","male","moderate","23.1","1,537"
+"25-29","age group","male","moderate","28.8","1,356"
+"30-39","age group","male","moderate","29.5","1,962"
+"40-49","age group","male","moderate","27.0","1,122"
+"15-19","age group","male","great","6.6","1,827"
+"20-24","age group","male","great","10.5","1,537"
+"25-29","age group","male","great","12.7","1,356"
+"30-39","age group","male","great","11.1","1,962"
+"40-49","age group","male","great","6.7","1,122"
+"15-19","age group","male","dont_know","0.1","1,827"
+"20-24","age group","male","dont_know","0.3","1,537"
+"25-29","age group","male","dont_know","0.2","1,356"
+"30-39","age group","male","dont_know","0.1","1,962"
+"40-49","age group","male","dont_know","0.1","1,122"
+"15-19","age group","female","no_risk_at_all","45.9","1,827"
+"20-24","age group","female","no_risk_at_all","31.7","1,537"
+"25-29","age group","female","no_risk_at_all","25.1","1,356"
+"30-39","age group","female","no_risk_at_all","26.2","1,962"
+"40-49","age group","female","no_risk_at_all","29.3","1,122"
+"15-19","age group","female","small","34.1","1,827"
+"20-24","age group","female","small","34.4","1,537"
+"25-29","age group","female","small","33.3","1,356"
+"30-39","age group","female","small","33.2","1,962"
+"40-49","age group","female","small","36.8","1,122"
+"15-19","age group","male","moderate","13.2","1,827"
+"20-24","age group","male","moderate","23.1","1,537"
+"25-29","age group","male","moderate","28.8","1,356"
+"30-39","age group","male","moderate","29.5","1,962"
+"40-49","age group","male","moderate","27.0","1,122"
+"15-19","age group","female","great","6.6","1,827"
+"20-24","age group","female","great","10.5","1,537"
+"25-29","age group","female","great","12.7","1,356"
+"30-39","age group","female","great","11.1","1,962"
+"40-49","age group","female","great","6.7","1,122"
+"15-19","age group","female","dont_know","0.1","1,827"
+"20-24","age group","female","dont_know","0.3","1,537"
+"25-29","age group","female","dont_know","0.2","1,356"
+"30-39","age group","female","dont_know","0.1","1,962"
+"40-49","age group","female","dont_know","0.1","1,122"
+"Marital status","marital status","male","no_risk_at_all",NA,NA
+"Currently married","marital status","male","no_risk_at_all","27.1","4,785"
+"Formerly married","marital status","male","no_risk_at_all","30.9","668"
+"Never married","marital status","male","no_risk_at_all","42.7","2,351"
+"Marital status","marital status","male","small",NA,NA
+"Currently married","marital status","male","small","33.8","4,785"
+"Formerly married","marital status","male","small","36.9","668"
+"Never married","marital status","male","small","34.2","2,351"
+"Marital status","marital status","male","moderate",NA,NA
+"Currently married","marital status","male","moderate","28.2","4,785"
+"Formerly married","marital status","male","moderate","22.2","668"
+"Never married","marital status","male","moderate","15.7","2,351"
+"Marital status","marital status","male","great",NA,NA
+"Currently married","marital status","male","great","10.7","4,785"
+"Formerly married","marital status","male","great","9.5","668"
+"Never married","marital status","male","great","7.2","2,351"
+"Marital status","marital status","male","dont_know",NA,NA
+"Currently married","marital status","male","dont_know","0.2","4,785"
+"Formerly married","marital status","male","dont_know","0.3","668"
+"Never married","marital status","male","dont_know","0.1","2,351"
+"Marital status","marital status","female","no_risk_at_all",NA,NA
+"Currently married","marital status","female","no_risk_at_all","27.1","4,785"
+"Formerly married","marital status","female","no_risk_at_all","30.9","668"
+"Never married","marital status","female","no_risk_at_all","42.7","2,351"
+"Marital status","marital status","female","small",NA,NA
+"Currently married","marital status","female","small","33.8","4,785"
+"Formerly married","marital status","female","small","36.9","668"
+"Never married","marital status","female","small","34.2","2,351"
+"Marital status","marital status","male","moderate",NA,NA
+"Currently married","marital status","male","moderate","28.2","4,785"
+"Formerly married","marital status","male","moderate","22.2","668"
+"Never married","marital status","male","moderate","15.7","2,351"
+"Marital status","marital status","female","great",NA,NA
+"Currently married","marital status","female","great","10.7","4,785"
+"Formerly married","marital status","female","great","9.5","668"
+"Never married","marital status","female","great","7.2","2,351"
+"Marital status","marital status","female","dont_know",NA,NA
+"Currently married","marital status","female","dont_know","0.2","4,785"
+"Formerly married","marital status","female","dont_know","0.3","668"
+"Never married","marital status","female","dont_know","0.1","2,351"
+"0","No. of sexual partner other than husband/wife in past year","male","no_risk_at_all","33.3","6,523"
+"1","No. of sexual partner other than husband/wife in past year","male","no_risk_at_all","28.1","1,014"
+"2-3","No. of sexual partner other than husband/wife in past year","male","no_risk_at_all","20.0","155"
+"4+","No. of sexual partner other than husband/wife in past year","male","no_risk_at_all","(19.6)","29"
+"Don<U+0092>t know/missing","No. of sexual partner other than husband/wife in past year","male","no_risk_at_all","20.0","83"
+"0","No. of sexual partner other than husband/wife in past year","male","small","34.2","6,523"
+"1","No. of sexual partner other than husband/wife in past year","male","small","34.4","1,014"
+"2-3","No. of sexual partner other than husband/wife in past year","male","small","24.5","155"
+"4+","No. of sexual partner other than husband/wife in past year","male","small","(30.0)","29"
+"Don<U+0092>t know/missing","No. of sexual partner other than husband/wife in past year","male","small","48.6","83"
+"0","No. of sexual partner other than husband/wife in past year","male","moderate","23.2","6,523"
+"1","No. of sexual partner other than husband/wife in past year","male","moderate","26.2","1,014"
+"2-3","No. of sexual partner other than husband/wife in past year","male","moderate","36.3","155"
+"4+","No. of sexual partner other than husband/wife in past year","male","moderate","(22.1)","29"
+"Don<U+0092>t know/missing","No. of sexual partner other than husband/wife in past year","male","moderate","27.1","83"
+"0","No. of sexual partner other than husband/wife in past year","male","great","9.1","6,523"
+"1","No. of sexual partner other than husband/wife in past year","male","great","11.1","1,014"
+"2-3","No. of sexual partner other than husband/wife in past year","male","great","19.2","155"
+"4+","No. of sexual partner other than husband/wife in past year","male","great","(28.3)","29"
+"Don<U+0092>t know/missing","No. of sexual partner other than husband/wife in past year","male","great","4.3","83"
+"0","No. of sexual partner other than husband/wife in past year","male","dont_know","0.2","6,523"
+"1","No. of sexual partner other than husband/wife in past year","male","dont_know","0.2","1,014"
+"2-3","No. of sexual partner other than husband/wife in past year","male","dont_know","0.0","155"
+"4+","No. of sexual partner other than husband/wife in past year","male","dont_know","(0.0)","29"
+"Don<U+0092>t know/missing","No. of sexual partner other than husband/wife in past year","male","dont_know","0.0","83"
+"0","No. of sexual partner other than husband/wife in past year","female","no_risk_at_all","33.3","6,523"
+"1","No. of sexual partner other than husband/wife in past year","female","no_risk_at_all","28.1","1,014"
+"2-3","No. of sexual partner other than husband/wife in past year","female","no_risk_at_all","20.0","155"
+"4+","No. of sexual partner other than husband/wife in past year","female","no_risk_at_all","(19.6)","29"
+"Don<U+0092>t know/missing","No. of sexual partner other than husband/wife in past year","female","no_risk_at_all","20.0","83"
+"0","No. of sexual partner other than husband/wife in past year","female","small","34.2","6,523"
+"1","No. of sexual partner other than husband/wife in past year","female","small","34.4","1,014"
+"2-3","No. of sexual partner other than husband/wife in past year","female","small","24.5","155"
+"4+","No. of sexual partner other than husband/wife in past year","female","small","(30.0)","29"
+"Don<U+0092>t know/missing","No. of sexual partner other than husband/wife in past year","female","small","48.6","83"
+"0","No. of sexual partner other than husband/wife in past year","male","moderate","23.2","6,523"
+"1","No. of sexual partner other than husband/wife in past year","male","moderate","26.2","1,014"
+"2-3","No. of sexual partner other than husband/wife in past year","male","moderate","36.3","155"
+"4+","No. of sexual partner other than husband/wife in past year","male","moderate","(22.1)","29"
+"Don<U+0092>t know/missing","No. of sexual partner other than husband/wife in past year","male","moderate","27.1","83"
+"0","No. of sexual partner other than husband/wife in past year","female","great","9.1","6,523"
+"1","No. of sexual partner other than husband/wife in past year","female","great","11.1","1,014"
+"2-3","No. of sexual partner other than husband/wife in past year","female","great","19.2","155"
+"4+","No. of sexual partner other than husband/wife in past year","female","great","(28.3)","29"
+"Don<U+0092>t know/missing","No. of sexual partner other than husband/wife in past year","female","great","4.3","83"
+"0","No. of sexual partner other than husband/wife in past year","female","dont_know","0.2","6,523"
+"1","No. of sexual partner other than husband/wife in past year","female","dont_know","0.2","1,014"
+"2-3","No. of sexual partner other than husband/wife in past year","female","dont_know","0.0","155"
+"4+","No. of sexual partner other than husband/wife in past year","female","dont_know","(0.0)","29"
+"Don<U+0092>t know/missing","No. of sexual partner other than husband/wife in past year","female","dont_know","0.0","83"
+"Urban","residence","male","no_risk_at_all","30.4","1,821"
+"Rural","residence","male","no_risk_at_all","32.7","5,983"
+"Urban","residence","male","small","33.1","1,821"
+"Rural","residence","male","small","34.5","5,983"
+"Urban","residence","male","moderate","22.4","1,821"
+"Rural","residence","male","moderate","24.4","5,983"
+"Urban","residence","male","great","13.8","1,821"
+"Rural","residence","male","great","8.3","5,983"
+"Urban","residence","male","dont_know","0.3","1,821"
+"Rural","residence","male","dont_know","0.1","5,983"
+"Urban","residence","female","no_risk_at_all","30.4","1,821"
+"Rural","residence","female","no_risk_at_all","32.7","5,983"
+"Urban","residence","female","small","33.1","1,821"
+"Rural","residence","female","small","34.5","5,983"
+"Urban","residence","male","moderate","22.4","1,821"
+"Rural","residence","male","moderate","24.4","5,983"
+"Urban","residence","female","great","13.8","1,821"
+"Rural","residence","female","great","8.3","5,983"
+"Urban","residence","female","dont_know","0.3","1,821"
+"Rural","residence","female","dont_know","0.1","5,983"
+"Nairobi","province","male","no_risk_at_all","27.3","768"
+"Central","province","male","no_risk_at_all","33.1","830"
+"Coast","province","male","no_risk_at_all","35.1","597"
+"Eastern","province","male","no_risk_at_all","45.4","1,378"
+"Nyanza","province","male","no_risk_at_all","20.8","1,687"
+"Rift Valley","province","male","no_risk_at_all","36.0","1,648"
+"Western","province","male","no_risk_at_all","27.3","896"
+"Nairobi","province","male","small","32.5","768"
+"Central","province","male","small","49.0","830"
+"Coast","province","male","small","41.5","597"
+"Eastern","province","male","small","28.2","1,378"
+"Nyanza","province","male","small","33.4","1,687"
+"Rift Valley","province","male","small","32.2","1,648"
+"Western","province","male","small","31.3","896"
+"Nairobi","province","male","moderate","24.9","768"
+"Central","province","male","moderate","13.7","830"
+"Coast","province","male","moderate","18.8","597"
+"Eastern","province","male","moderate","22.9","1,378"
+"Nyanza","province","male","moderate","25.8","1,687"
+"Rift Valley","province","male","moderate","23.2","1,648"
+"Western","province","male","moderate","35.3","896"
+"Nairobi","province","male","great","15.1","768"
+"Central","province","male","great","4.2","830"
+"Coast","province","male","great","4.1","597"
+"Eastern","province","male","great","3.5","1,378"
+"Nyanza","province","male","great","19.8","1,687"
+"Rift Valley","province","male","great","8.2","1,648"
+"Western","province","male","great","5.9","896"
+"Nairobi","province","male","dont_know","0.2","768"
+"Central","province","male","dont_know","0.0","830"
+"Coast","province","male","dont_know","0.0","597"
+"Eastern","province","male","dont_know","0.1","1,378"
+"Nyanza","province","male","dont_know","0.1","1,687"
+"Rift Valley","province","male","dont_know","0.4","1,648"
+"Western","province","male","dont_know","0.1","896"
+"Nairobi","province","female","no_risk_at_all","27.3","768"
+"Central","province","female","no_risk_at_all","33.1","830"
+"Coast","province","female","no_risk_at_all","35.1","597"
+"Eastern","province","female","no_risk_at_all","45.4","1,378"
+"Nyanza","province","female","no_risk_at_all","20.8","1,687"
+"Rift Valley","province","female","no_risk_at_all","36.0","1,648"
+"Western","province","female","no_risk_at_all","27.3","896"
+"Nairobi","province","female","small","32.5","768"
+"Central","province","female","small","49.0","830"
+"Coast","province","female","small","41.5","597"
+"Eastern","province","female","small","28.2","1,378"
+"Nyanza","province","female","small","33.4","1,687"
+"Rift Valley","province","female","small","32.2","1,648"
+"Western","province","female","small","31.3","896"
+"Nairobi","province","male","moderate","24.9","768"
+"Central","province","male","moderate","13.7","830"
+"Coast","province","male","moderate","18.8","597"
+"Eastern","province","male","moderate","22.9","1,378"
+"Nyanza","province","male","moderate","25.8","1,687"
+"Rift Valley","province","male","moderate","23.2","1,648"
+"Western","province","male","moderate","35.3","896"
+"Nairobi","province","female","great","15.1","768"
+"Central","province","female","great","4.2","830"
+"Coast","province","female","great","4.1","597"
+"Eastern","province","female","great","3.5","1,378"
+"Nyanza","province","female","great","19.8","1,687"
+"Rift Valley","province","female","great","8.2","1,648"
+"Western","province","female","great","5.9","896"
+"Nairobi","province","female","dont_know","0.2","768"
+"Central","province","female","dont_know","0.0","830"
+"Coast","province","female","dont_know","0.0","597"
+"Eastern","province","female","dont_know","0.1","1,378"
+"Nyanza","province","female","dont_know","0.1","1,687"
+"Rift Valley","province","female","dont_know","0.4","1,648"
+"Western","province","female","dont_know","0.1","896"
+"No education","education","male","no_risk_at_all","30.0","860"
+"Primary incomplete","education","male","no_risk_at_all","34.4","2,871"
+"Primary complete","education","male","no_risk_at_all","32.7","1,773"
+"Secondary+","education","male","no_risk_at_all","29.7","2,300"
+"No education","education","male","small","34.5","860"
+"Primary incomplete","education","male","small","33.5","2,871"
+"Primary complete","education","male","small","34.5","1,773"
+"Secondary+","education","male","small","34.7","2,300"
+"No education","education","male","moderate","28.2","860"
+"Primary incomplete","education","male","moderate","23.1","2,871"
+"Primary complete","education","male","moderate","23.1","1,773"
+"Secondary+","education","male","moderate","24.1","2,300"
+"No education","education","male","great","7.1","860"
+"Primary incomplete","education","male","great","8.9","2,871"
+"Primary complete","education","male","great","9.5","1,773"
+"Secondary+","education","male","great","11.4","2,300"
+"No education","education","male","dont_know","0.1","860"
+"Primary incomplete","education","male","dont_know","0.2","2,871"
+"Primary complete","education","male","dont_know","0.1","1,773"
+"Secondary+","education","male","dont_know","0.2","2,300"
+"No education","education","female","no_risk_at_all","30.0","860"
+"Primary incomplete","education","female","no_risk_at_all","34.4","2,871"
+"Primary complete","education","female","no_risk_at_all","32.7","1,773"
+"Secondary+","education","female","no_risk_at_all","29.7","2,300"
+"No education","education","female","small","34.5","860"
+"Primary incomplete","education","female","small","33.5","2,871"
+"Primary complete","education","female","small","34.5","1,773"
+"Secondary+","education","female","small","34.7","2,300"
+"No education","education","male","moderate","28.2","860"
+"Primary incomplete","education","male","moderate","23.1","2,871"
+"Primary complete","education","male","moderate","23.1","1,773"
+"Secondary+","education","male","moderate","24.1","2,300"
+"No education","education","female","great","7.1","860"
+"Primary incomplete","education","female","great","8.9","2,871"
+"Primary complete","education","female","great","9.5","1,773"
+"Secondary+","education","female","great","11.4","2,300"
+"No education","education","female","dont_know","0.1","860"
+"Primary incomplete","education","female","dont_know","0.2","2,871"
+"Primary complete","education","female","dont_know","0.1","1,773"
+"Secondary+","education","female","dont_know","0.2","2,300"

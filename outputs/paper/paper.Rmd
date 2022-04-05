@@ -32,7 +32,7 @@ You can and should cross-reference sections and sub-sections. For instance, Sect
 
 Our data is of penguins (Figure \@ref(fig:bills)).
 
-```{r bills, fig.cap="Bills of penguins", echo = FALSE}
+```{r bills, fig.cap="Bills of penguins", echo = FALSE,fig.width=8, fig.height=4}
 age_group_diverging <- data %>% filter(demographic_type == "age group" ,survey_answer != "don't know")%>% mutate(chances_of_getting_aids = if_else(survey_answer %in% c("no risk at all","small"), -chances_of_getting_aids, chances_of_getting_aids)) %>%
   mutate(percent_label = abs(chances_of_getting_aids)) %>%
   mutate(percent_label = percent(chances_of_getting_aids/100, accuracy = 1))

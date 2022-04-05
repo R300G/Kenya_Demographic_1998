@@ -93,18 +93,18 @@ get_data <- function(m_slice1, m_slice2, f_slice1, f_slice2, demo_type) {
   rm(m1, m2, m3, m4, m5, f1, f2, f3, f4, f5, data_male, data_female, data_list)
   return(data_final)
 }
-age_data_final <- get_data(22, 26, 22, 26, "age group")
-marital_status_data_final <- get_data(29, 31, 29, 31, "marital status")
-sexual_partner_data_final <- get_data(36, 40, 36, 40, "No. of sexual partner other than husband/wife in past year")
-residence_data_final <- get_data(43, 44, 43, 44, "residence")
-province_data_final <- get_data(47, 53, 47, 53, "province")
-education_data_final <- get_data(56, 59, 56, 59, "education")
+age_data_final <- get_data(12, 17, 12, 16, "age group")
+marital_status_data_final <- get_data(20, 22, 19, 21, "marital status")
+sexual_partner_data_final <- get_data(27, 31, 26, 30, "No. of sexual partner other than husband/wife in past year")
+residence_data_final <- get_data(34, 35, 33, 34, "residence")
+province_data_final <- get_data(38, 44, 37, 43, "province")
+education_data_final <- get_data(47, 50, 46, 49, "education")
 
 data_final <-
   Reduce(rbind, list(age_data_final, marital_status_data_final, sexual_partner_data_final, residence_data_final, province_data_final, education_data_final))
 
 data_final <- 
-  data_final %>%mutate(population_count = as.numeric(gsub("[,]","",chances_of_getting_aids)),chances_of_getting_aids = as.numeric(gsub("[()]","",chances_of_getting_aids)), survey_answer = as.factor(survey_answer),gender = as.factor(gender),demographic_type = as.factor(demographic_type))%>%mutate(survey_answer = fct_relevel(survey_answer,"no risk at all", "small","moderate", "great", "don't know"))
+  data_final %>%mutate(population_count = as.numeric(gsub("[,]","",population_count)),chances_of_getting_aids = as.numeric(gsub("[()]","",chances_of_getting_aids)), survey_answer = as.factor(survey_answer),gender = as.factor(gender),demographic_type = as.factor(demographic_type))%>%mutate(survey_answer = fct_relevel(survey_answer,"no risk at all", "small","moderate", "great", "don't know"))
 
 rm(raw_data_female, raw_data_male, age_data_final, education_data_final, sexual_partner_data_final, residence_data_final, marital_status_data_final, province_data_final)
 write.csv(data_final, "outputs/data/cleaned_data.csv", row.names = FALSE) ## save data_final to ‘outputs/data/cleaned_age_data.csv’.

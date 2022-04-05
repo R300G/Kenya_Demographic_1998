@@ -33,7 +33,10 @@ dhs_1998_p164_extract <-
     fill = "right"
   )%>%select(-c(data,"total"))
 
-write.csv(dhs_1998_p164_extract, "outputs/data/raw_data_female.csv",row.names = FALSE)
+dhs_1998_p164_extract_f <- dhs_1998_p164_extract[-c(1,2,3,4,5,6,7,8,9,10),]
+view(dhs_1998_p164_extract_f)
+
+write.csv(dhs_1998_p164_extract_f, "outputs/data/raw_data_female.csv",row.names = FALSE)
 
 
 

@@ -24,8 +24,6 @@ library(janitor)
 raw_data_male <- readr::read_csv("outputs/data/raw_data_male.csv")
 raw_data_female <- readr::read_csv("outputs/data/raw_data_female.csv")
 
-raw_data_male <- mutate_if(raw_data_male, is.character, as.factor)
-raw_data_female <- mutate_if(raw_data_female, is.character, as.factor)
 
 get_data <- function(m_slice1, m_slice2, f_slice1, f_slice2, demo_type) {
   data_male <-
@@ -36,7 +34,7 @@ get_data <- function(m_slice1, m_slice2, f_slice1, f_slice2, demo_type) {
     slice(f_slice1:f_slice2)
   m1 <- data_male[, c(1, 2, 7)] %>%
     rename("chances_of_getting_aids" = "no_risk_at_all") %>%
-    mutate(survey_answer = "no_risk_at_all") %>%
+    mutate(survey_answer = "no risk at all") %>%
     mutate(gender = "male")
 
   m2 <- data_male[, c(1, 3, 7)] %>%
@@ -56,12 +54,12 @@ get_data <- function(m_slice1, m_slice2, f_slice1, f_slice2, demo_type) {
 
   m5 <- data_male[, c(1, 6, 7)] %>%
     rename("chances_of_getting_aids" = "dont_know") %>%
-    mutate(survey_answer = "dont_know") %>%
+    mutate(survey_answer = "don't know") %>%
     mutate(gender = "male")
 
   f1 <- data_female[, c(1, 2, 7)] %>%
     rename("chances_of_getting_aids" = "no_risk_at_all") %>%
-    mutate(survey_answer = "no_risk_at_all") %>%
+    mutate(survey_answer = "no risk at all") %>%
     mutate(gender = "female")
 
   f2 <- data_female[, c(1, 3, 7)] %>%
@@ -72,7 +70,7 @@ get_data <- function(m_slice1, m_slice2, f_slice1, f_slice2, demo_type) {
   f3 <- data_female[, c(1, 4, 7)] %>%
     rename("chances_of_getting_aids" = "moderate") %>%
     mutate(survey_answer = "moderate") %>%
-    mutate(gender = "male")
+    mutate(gender = "female")
 
   f4 <- data_female[, c(1, 5, 7)] %>%
     rename("chances_of_getting_aids" = "great") %>%
@@ -81,7 +79,7 @@ get_data <- function(m_slice1, m_slice2, f_slice1, f_slice2, demo_type) {
 
   f5 <- data_female[, c(1, 6, 7)] %>%
     rename("chances_of_getting_aids" = "dont_know") %>%
-    mutate(survey_answer = "dont_know") %>%
+    mutate(survey_answer = "don't know") %>%
     mutate(gender = "female")
 
   data_list <- list(m1, m2, m3, m4, m5, f1, f2, f3, f4, f5)
@@ -96,7 +94,7 @@ get_data <- function(m_slice1, m_slice2, f_slice1, f_slice2, demo_type) {
   return(data_final)
 }
 age_data_final <- get_data(22, 26, 22, 26, "age group")
-marital_status_data_final <- get_data(28, 31, 28, 31, "marital status")
+marital_status_data_final <- get_data(29, 31, 29, 31, "marital status")
 sexual_partner_data_final <- get_data(36, 40, 36, 40, "No. of sexual partner other than husband/wife in past year")
 residence_data_final <- get_data(43, 44, 43, 44, "residence")
 province_data_final <- get_data(47, 53, 47, 53, "province")
@@ -105,7 +103,8 @@ education_data_final <- get_data(56, 59, 56, 59, "education")
 data_final <-
   Reduce(rbind, list(age_data_final, marital_status_data_final, sexual_partner_data_final, residence_data_final, province_data_final, education_data_final))
 
-data_final <- mutate_if(data_final, is.character, as.factor)
+data_final <- 
+  data_final %>%mutate(population_count = as.numeric(gsub("[,]","",chances_of_getting_aids)),chances_of_getting_aids = as.numeric(gsub("[()]","",chances_of_getting_aids)), survey_answer = as.factor(survey_answer),gender = as.factor(gender),demographic_type = as.factor(demographic_type))%>%mutate(survey_answer = fct_relevel(survey_answer,"no risk at all", "small","moderate", "great", "don't know"))
 
 rm(raw_data_female, raw_data_male, age_data_final, education_data_final, sexual_partner_data_final, residence_data_final, marital_status_data_final, province_data_final)
 write.csv(data_final, "outputs/data/cleaned_data.csv", row.names = FALSE) ## save data_final to ‘outputs/data/cleaned_age_data.csv’.

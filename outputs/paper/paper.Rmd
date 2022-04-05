@@ -18,6 +18,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 library(tidyverse)
 library(palmerpenguins)
+library(scales)
+data <- readr::read_csv("../data/cleaned_data.csv")
 ```
 
 # Introduction
@@ -31,13 +33,81 @@ You can and should cross-reference sections and sub-sections. For instance, Sect
 Our data is of penguins (Figure \@ref(fig:bills)).
 
 ```{r bills, fig.cap="Bills of penguins", echo = FALSE}
-ggplot(penguins, aes(x = island, fill = species)) +
-  geom_bar(alpha = 0.8) +
-  scale_fill_manual(values = c("darkorange","purple","cyan4"),
-                    guide = FALSE) +
+age_group_diverging <- data %>% filter(demographic_type == "age group" ,survey_answer != "don't know")%>% mutate(chances_of_getting_aids = if_else(survey_answer %in% c("no risk at all","small"), -chances_of_getting_aids, chances_of_getting_aids)) %>%
+  mutate(percent_label = abs(chances_of_getting_aids)) %>%
+  mutate(percent_label = percent(chances_of_getting_aids/100, accuracy = 1))
+
+age_group_diverging %>% filter(gender == "male")%>%
+  ggplot(aes(
+    x = demographic_info,
+    y = chances_of_getting_aids,
+    fill = survey_answer
+  )) + geom_col() +
+  geom_text(aes(label = percent_label),
+    position = position_stack(vjust = 0.5),
+    color = "white",
+    fontface = "bold"
+  ) +
+  coord_flip() +
+  scale_x_discrete() +
+  scale_fill_manual(
+    breaks = c("no risk at all", "small", "moderate", "great"),
+    values = c(
+      "no risk at all" = "darkslategray4",
+      "small" = "darkslategray2",
+      "moderate" = "deepskyblue2",
+      "great" = "deepskyblue4"
+    )
+  ) +
+  labs(
+    title = "What is your chances of getting AIDS?",
+    x = "age group",
+    fill = NULL
+  ) +
   theme_minimal() +
-  facet_wrap(~species, ncol = 1) +
-  coord_flip()
+  theme(
+    axis.title.y = element_text(margin = margin(r = 20)),
+    axis.text.x = element_blank(),
+    axis.title.x = element_blank(),
+    panel.grid = element_blank(),
+    legend.position = "top"
+  )
+  
+  age_group_diverging %>% filter(gender == "female")%>%
+  ggplot(aes(
+    x = demographic_info,
+    y = chances_of_getting_aids,
+    fill = survey_answer
+  )) + geom_col() +
+  geom_text(aes(label = percent_label),
+    position = position_stack(vjust = 0.5),
+    color = "white",
+    fontface = "bold"
+  ) +
+  coord_flip() +
+  scale_x_discrete() +
+  scale_fill_manual(
+    breaks = c("no risk at all", "small", "moderate", "great"),
+    values = c(
+      "no risk at all" = "pink4",
+      "small" = "pink2",
+      "moderate" = "brown2",
+      "great" = "brown4"
+    )
+  ) +
+  labs(
+    title = "What is your chances of getting AIDS?",
+    x = "age group",
+    fill = NULL
+  ) +
+  theme_minimal() +
+  theme(
+    axis.title.y = element_text(margin = margin(r = 20)),
+    axis.text.x = element_blank(),
+    axis.title.x = element_blank(),
+    panel.grid = element_blank(),
+    legend.position = "top"
+  )
 ```
 
 Talk more about it.
@@ -49,8 +119,10 @@ Also bills and their average (Figure \@ref(fig:billssssss)). (Notice how you can
 # This needs to be about the random data tha tI sasmpled?
 ggplot(penguins, aes(x = island, fill = species)) +
   geom_bar(alpha = 0.8) +
-  scale_fill_manual(values = c("darkorange","purple","cyan4"),
-                    guide = FALSE) +
+  scale_fill_manual(
+    values = c("darkorange", "purple", "cyan4"),
+    guide = FALSE
+  ) +
   theme_minimal() +
   facet_wrap(~species, ncol = 1) +
   coord_flip()
@@ -103,5 +175,3 @@ Weaknesses and next steps should also be included.
 
 
 # References
-
-

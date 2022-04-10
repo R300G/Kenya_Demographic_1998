@@ -103,8 +103,12 @@ education_data_final <- get_data(47, 50, 46, 49, "education")
 data_final <-
   Reduce(rbind, list(age_data_final, marital_status_data_final, sexual_partner_data_final, residence_data_final, province_data_final, education_data_final))
 
-data_final <- 
-  data_final %>%mutate(population_count = as.numeric(gsub("[,]","",population_count)),chances_of_getting_aids = as.numeric(gsub("[()]","",chances_of_getting_aids)), survey_answer = as.factor(survey_answer),gender = as.factor(gender),demographic_type = as.factor(demographic_type))%>%mutate(survey_answer = fct_relevel(survey_answer,"no risk at all", "small","moderate", "great", "don't know"))
+data_final <-
+  data_final %>%
+  mutate(population_count = as.numeric(gsub("[,]", "", population_count)), chances_of_getting_aids = as.numeric(gsub("[()]", "", chances_of_getting_aids)), survey_answer = as.factor(survey_answer), gender = as.factor(gender), demographic_type = as.factor(demographic_type)) %>%
+  mutate(survey_answer = fct_relevel(survey_answer, "no risk at all", "small", "moderate", "great", "don't know")) %>%
+  select(-"population_count") %>%
+  filter(demographic_info != "Don’t know/missing", survey_answer != "don't know")
 
 rm(raw_data_female, raw_data_male, age_data_final, education_data_final, sexual_partner_data_final, residence_data_final, marital_status_data_final, province_data_final)
 write.csv(data_final, "outputs/data/cleaned_data.csv", row.names = FALSE) ## save data_final to ‘outputs/data/cleaned_age_data.csv’.

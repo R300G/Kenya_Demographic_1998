@@ -3,6 +3,7 @@
 - Author: Charles Lu, Mahak Jain, Yujun Jiao
 - Date: April 3rd, 2022
 - E-mail: charlesjiahong.lu@utoronto.ca
+- E-mail: bella.jiao@mail.utoronto.ca
 
 ## Overview of the paper
 

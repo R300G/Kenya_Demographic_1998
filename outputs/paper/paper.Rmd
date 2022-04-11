@@ -111,7 +111,7 @@ province_diverging %>% filter(gender == "male")%>%
     )
   ) +
   labs(
-    title = "What is your chances of getting AIDS? (Male)",
+    title = "What are your chances of getting AIDS? (Male)",
     x = "province",
     fill = NULL
   ) +
@@ -149,7 +149,7 @@ province_diverging %>% filter(gender == "female")%>%
     )
   ) +
   labs(
-    title = "What is your chances of getting AIDS? (Female)",
+    title = "What are your chances of getting AIDS? (Female)",
     x = "Provinces",
     fill = NULL
   ) +

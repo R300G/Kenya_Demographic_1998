@@ -1,4 +1,4 @@
-# Perception on the risk of Receiving AIDS of Kenya Population 1998
+# Impacts of social backgrounds on people's perception of the risk of getting AIDS
 
 - Author: Charles Lu, Mahak Jain, Yujun Jiao
 - Date: April 3rd, 2022

@@ -420,7 +420,7 @@ age_diverging %>% filter(gender == "male")%>%
     )
   ) +
   labs(
-    title = "What is your chances of getting AIDS? (Male)",
+    title = "What are your chances of getting AIDS? (Male)",
     x = "age",
     fill = NULL
   ) +

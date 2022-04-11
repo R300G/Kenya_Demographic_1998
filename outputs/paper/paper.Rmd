@@ -898,4 +898,39 @@ What (other) tasks could the dataset be used for?
 Is there anything about the composition of the dataset or the way it was collected and preprocessed/cleaned/labeled that might impact future uses?
 - The cleaning process is very specific to the way this table was formatted in the original PDF and may not work on other tables. 
 
+### Distribution
+
+Will the dataset be distributed to third parties outside of the entity (e.g., company, institution, organization) on behalf of which the dataset was created? 
+- No. The data set is for personal use only.
+How will the dataset will be distributed (e.g., tarball on website, API, GitHub)?
+- The dataset can be found in the Github repository mentioned in the report.
+When will the dataset be distributed?
+- The dataset has already been distributed in April 2022. 
+Will the dataset be distributed under a copyright or other intellectual property (IP) license, and/or under applicable terms of use (ToU)?
+- The report is under the MIT license.
+Have any third parties imposed IP-based or other restrictions on the data associated with the instances?
+- There are no IP-based or other restrictions on the data.
+Do any export controls or other regulatory restrictions apply to the dataset or to individual instances?
+- No.
+Any other comments?
+- None.
+
+
+### Maintenance
+
+Who will be supporting/hosting/maintaining the dataset?
+- All three authors of the report will be maintaining the dataset. They are Mahak Jain, Yujun Jiao and Charles Lu
+How can the owner/curator/manager of the dataset be contacted (e.g., email address)?
+- They can be contacted via the email addresses listed in the README file on Github.
+Will the dataset be updated (e.g., to correct labeling errors, add new instances, delete instances)?
+- No dataset updates are scheduled yet. 
+If the dataset relates to people, are there applicable limits on the retention of the data associated with the instances (e.g., were the individuals in question told that their data would be retained for a fixed period of time and then deleted)?
+- The data set was collected by the DHS program in 1998. There are no application limits on the retention of the data since it was collected voluntarily.
+Will older versions of the dataset continue to be supported/hosted/maintained?
+- No. Only the current data is available for now and future.
+If others want to extend/augment/build on/contribute to the dataset, is there a mechanism for them to do so?
+- The extensions, augmentations and contributions from other users are not supported.
+
+
+
 # References

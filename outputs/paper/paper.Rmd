@@ -1,6 +1,5 @@
 ---
 title: "My title"
-subtitle: "My subtitle if needed"
 author: 
   - Charles Lu
   - Mahak Jain

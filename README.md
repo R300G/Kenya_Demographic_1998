@@ -1,4 +1,4 @@
-# AIDS related knowledge of Kenya population of 1998
+# Perception on the risk of Receiving AIDS of Kenya Population 1998
 
 - Author: Charles Lu, Mahak Jain, Yujun Jiao
 - Date: April 3rd, 2022

@@ -15,7 +15,7 @@ output:
     toc: true
     fig_caption: yes
 bibliography: references.bib
-thanks: "https://github.com/R300G/paper4_placeholder_name"
+thanks: "https://github.com/R300G/Kenya_Demographic_1998"
 ---
 
 ```{r setup, include=FALSE, echo= FALSE}
@@ -263,7 +263,6 @@ theme_bw <-
   ggplot(data = subset(data_prov,(!is.na(survey_answer))),  aes(demographic_info, chances_of_getting_aids, fill = survey_answer)) +labs(fill= "Survey Answers") +
          geom_bar(stat = "identity") + 
          scale_y_continuous(name="Percentage") +
-         ggtitle("Survey Participant Distribution for Provinces") +
          scale_x_discrete(name="Province") +
          theme_bw()
 ```
@@ -287,7 +286,6 @@ scatterPlote <- ggplot(datae, aes(demographic_info, chances_of_getting_aids, col
   geom_point() + facet_wrap(~gender)+ 
   stat_smooth(aes(group = survey_answer), method = "loess", se = FALSE, lty='dashed') +
   labs(
-    title = "Survey Participant Distribution for Education",
     x = "education",
     y = "survey participants",
     fill = NULL
@@ -315,11 +313,10 @@ The difference between the perception of male and female participants as shown i
 #Correlation for marital status
 datam<- data %>% filter( demographic_type == "marital status")
 
-scatterPlot1 <- ggplot(datam, aes(demographic_info, chances_of_getting_aids, color = survey_answer)) +
+scatterPlot1 <- ggplot(datam, aes(demographic_info, chances_of_getting_aids, color = survey_answer)) +labs(color = "Survey Answers")+
   geom_point() + facet_wrap(~gender)+
   stat_smooth(aes(group = survey_answer), method = "loess", se = FALSE, lty='dashed') +
   labs(
-    title = "Survey Participant Distribution",
     x = "Marital Status",
     y = "survey participants",
     fill = NULL
@@ -343,11 +340,10 @@ The graphs below depict the answers of participants on rural and urban sides abo
 #Correlation for residence 
 datar <- data %>% filter( demographic_type == "residence")
 
-scatterPlot1 <- ggplot(datar, aes(demographic_info, chances_of_getting_aids, color = survey_answer)) +
+scatterPlot1 <- ggplot(datar, aes(demographic_info, chances_of_getting_aids, color = survey_answer)) +labs(color = "Survey Answers")+
   geom_point() +  facet_wrap(~gender)+
   stat_smooth(aes(group = survey_answer), method = "lm", se = FALSE, lty='dashed') +
   labs(
-    title = "Survey Participant Distribution",
     x = "Residence",
     y = "survey participants",
     fill = NULL
@@ -389,6 +385,8 @@ It’s always important for the readers to always acknowledge the flaws in this 
 AIDS is a transmissible disease that cannot be cured. Being a dreadful disease that has infected more than 35 million people worldwide, it can only be controlled with active therapy and medications[@deeks]. In this report, by analyzing the answers from people from various backgrounds, the chances of them being infected with AIDS were analyzed in detail. However, studying people’s perceptions alone is not enough to make fair conclusions about the nature, the trends, and the effective prevention methods of the disease. Other factors such as people’s knowledge about AIDS, the universalization rate of effective prevention methods, and the availability of healthcare in the studied region are also crucial to the impacts of the disease. In addition, the DHS report studied in this analysis was published in 1998, signifying that it has lost some relevance to modern society. Hence, in the future, more up-to-date reports will be reviewed to achieve a better understanding of the different aspects of the disease. In hopes of reducing the negative influence of AIDS on people’s daily life, this analysis aims to educate the public about the seriousness of sexually transmissible diseases, outline the factors that increase the infection rate, and promote future governmental and health plans. 
 
 # Apendix
+
+## Data Visualization
 ```{r agevm, fig.cap="Percentage Distribution of Survey Answers by Age", echo = FALSE,fig.width=8, fig.height=4}
 
 age_diverging <- data %>%
@@ -812,5 +810,8 @@ marital_diverging %>% filter(gender == "female")%>%
     legend.position = "top"
   )
 ```
+
+## Datasheet
+
 \newpage
 # References

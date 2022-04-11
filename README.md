@@ -1,16 +1,16 @@
 # AIDS related knowledge of Kenya population of 1998
 
-- Author: Charles Lu
+- Author: Charles Lu, Mahak Jain, Yujun Jiao
 - Date: April 3rd, 2022
 - E-mail: charlesjiahong.lu@utoronto.ca
 
 ## Overview of the paper
 
-This repository explores the Kenya DHS 1998 data to better understand the people's preception of AIDS.
+This repository explores the Kenya DHS 1998 data to better understand people's perception on the risk of receiving AIDS based on their various demographic backgrounds.
 
 ## Obtaining data
 
-The data is available on https://dhsprogram.com/
+The data is available on https://dhsprogram.com/publications/publication-fr102-dhs-final-reports.cfm
 
 It is also included in this repository, in the directory "inputs/data/FR102.pdf"
 
@@ -31,15 +31,16 @@ There is a RMarkDown document located in "outputs/paper/paper.Rmd". This file is
 ## File Structure
 
 1. Inputs
-- In this folder, you will find DHS 1998 raw data, cleaned datasets, and supplemental survey screenshots (within supplemental_survey folder).
+- In the data folder, you will find Kenya's DHS 1998 Report.
 
 2. Outputs
-- In this folder you will find a reference file, RMarkdown file, and a pdf document of the paper.
+- In the paper folder you will find a reference file, RMarkdown file, and a pdf document of the report.
+- In the data folder you will find two raw data file, one cleaned data file, and two survey screenshots of the pdf document DHS 1998 report.
 
 3. Scripts
-- This folder contains R-Scripts to retrieve, clean, and do analysis (visulization) with the dataset.
+- This folder contains R-Scripts that simulates the data, gather the data from the DHS report, and clean the data.
 
 4. Licence
-- Typical MIT licence for re usability
+- Typical MIT licence for reusability
 
 

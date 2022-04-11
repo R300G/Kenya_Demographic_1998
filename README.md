@@ -4,6 +4,7 @@
 - Date: April 3rd, 2022
 - E-mail: charlesjiahong.lu@utoronto.ca
 - E-mail: bella.jiao@mail.utoronto.ca
+- E-mail: mahak.jain@mail.utoronto.ca
 
 ## Overview of the paper
 

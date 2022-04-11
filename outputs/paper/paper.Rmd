@@ -813,5 +813,46 @@ marital_diverging %>% filter(gender == "female")%>%
 
 ## Datasheet
 
-\newpage
+### Motivation
+
+For what purpose was the dataset created?
+- Using data extracted from Kenya’s Demographic and Health Surveys in 1998, this analysis aims to study the Kenyans’ perception of their risk of getting AIDS. By analyzing the age, marital status, number of sex partners, residence, province, and education of the survey’s participants, results show that these factors all have different levels of impact on people’s risk of being infected. In the future, this report can help scholars to dive deeper into the history of the sexually-transmissible disease, study the correlation between the transmission rate and social backgrounds, and aid the authorities in making governmental or health-related plans.
+Who created the dataset (e.g., which team, research group) and on behalf of which entity (e.g., company, institution, organization)?
+- The Republic of Kenya, Central Bureau of Statistics
+Who funded the creation of the dataset?
+- U.S. Agency for International Development (USAID/Nairobi) and the Department for International Development (DFID/U.K.)
+
+### Composition
+
+What do the instances that comprise the dataset represent (e.g., documents, photos, people, countries)?
+- Respondent information: age, education, marital status, residence, province, number of sexual partners.
+How many instances are there in total (of each type, if appropriate)?
+- Three types of questionnaires were used in the 1998 KDHS: the Household Questionnaire, the Women’s Questionnaire, and the Men’s Questionnaire. 
+
+Does the dataset contain all possible instances or is it a sample (not necessarily random) of instances from a larger set?
+-The larger set was the 1998 KDHS consisting of 3 datasets. For the dataset used in the paper, a smaller sample of the larger sample is taken into account. It is representative in terms of regional coverage as it includes the same respondents but focuses on a question which is: Chances of getting AIDS?
+The raw dataset consists of two tables. The table is on Kenya’s Demographic and Health Surveys in 1998, Chapter 10, Table 10,9.1 and 10.9.2
+
+Is there a label or target associated with each instance?
+- Table 10.9.1 Perception of the risk of getting AIDS: women: Percent distribution of women who have heard of AIDS by their perception of their risk of getting
+AIDS, according to background characteristics, Kenya 1998 and Table 10.9.2 Perception of the risk of getting AIDS: men: Percent distribution of men who have heard of AIDS by their perception of their risk of getting AIDS, according to background characteristics, Kenya 1998
+
+Is any information missing from individual instances?
+- Information on the income level of respondents is not included in the table.
+Are there any errors, sources of noise, or redundancies in the dataset?
+- There are no errors, sources of noise or redundancies in the dataset.
+Is the dataset self-contained, or does it link to or otherwise rely on external resources (e.g., websites, tweets, other datasets)?
+- The dataset is self-contained.
+Does the dataset contain data that might be considered confidential?
+- There is no confidential data, the dataset is publicly available.
+Does the dataset identify any subpopulations (e.g., by age, gender)?
+- The dataset comprises men and women aged 15 years or above.
+
+Is it possible to identify individuals (i.e., one or more natural persons), either directly or indirectly (i.e., in combination with other data) from the dataset? 
+- It is not possible to identify individuals. 
+Does the dataset contain data that might be considered sensitive in any way?
+- Sensitive information may include but is not limited to: Number of sexual partners for men and women before 18, The Percent of women aged 15-19 and 20-24 married before 18. Percent of men aged 15-19 and 20-24 married before 18. 
+Any other comments?
+- None.
+
 # References

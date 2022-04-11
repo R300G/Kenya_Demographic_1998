@@ -813,124 +813,121 @@ marital_diverging %>% filter(gender == "female")%>%
 
 ## Datasheet
 
-### Motivation
 
-For what purpose was the dataset created?
-- Using data extracted from Kenya’s Demographic and Health Surveys in 1998, this analysis aims to study the Kenyans’ perception of their risk of getting AIDS. By analyzing the age, marital status, number of sex partners, residence, province, and education of the survey’s participants, results show that these factors all have different levels of impact on people’s risk of being infected. In the future, this report can help scholars to dive deeper into the history of the sexually-transmissible disease, study the correlation between the transmission rate and social backgrounds, and aid the authorities in making governmental or health-related plans.
-Who created the dataset (e.g., which team, research group) and on behalf of which entity (e.g., company, institution, organization)?
-- The Republic of Kenya, Central Bureau of Statistics
-Who funded the creation of the dataset?
-- U.S. Agency for International Development (USAID/Nairobi) and the Department for International Development (DFID/U.K.)
+## Datasheet
 
-### Composition
+**Motivation**
 
-What do the instances that comprise the dataset represent (e.g., documents, photos, people, countries)?
-- Respondent information: age, education, marital status, residence, province, number of sexual partners.
-How many instances are there in total (of each type, if appropriate)?
-- Three types of questionnaires were used in the 1998 KDHS: the Household Questionnaire, the Women’s Questionnaire, and the Men’s Questionnaire. 
+1. For what purpose was the dataset created?
+  - Using data extracted from Kenya’s Demographic and Health Surveys in 1998, this analysis aims to study the Kenyans’ perception of their risk of getting AIDS. By analyzing the age, marital status, number of sex partners, residence, province, and education of the survey’s participants, results show that these factors all have different levels of impact on people’s risk of being infected. In the future, this report can help scholars to dive deeper into the history of the sexually-transmissible disease, study the correlation between the transmission rate and social backgrounds, and aid the authorities in making governmental or health-related plans.
+2. Who created the dataset (e.g., which team, research group) and on behalf of which entity (e.g., company, institution, organization)?
+  - The Republic of Kenya, Central Bureau of Statistics
+3. Who funded the creation of the dataset?
+  - U.S. Agency for International Development (USAID/Nairobi) and the Department for International Development (DFID/U.K.)
 
-Does the dataset contain all possible instances or is it a sample (not necessarily random) of instances from a larger set?
--The larger set was the 1998 KDHS consisting of 3 datasets. For the dataset used in the paper, a smaller sample of the larger sample is taken into account. It is representative in terms of regional coverage as it includes the same respondents but focuses on a question which is: Chances of getting AIDS?
+**Composition**
+
+1. What do the instances that comprise the dataset represent (e.g., documents, photos, people, countries)?
+  - Respondent information: age, education, marital status, residence, province, number of sexual partners.
+2. How many instances are there in total (of each type, if appropriate)?
+  - Three types of questionnaires were used in the 1998 KDHS: the Household Questionnaire, the Women’s Questionnaire, and the Men’s Questionnaire. 
+3. Does the dataset contain all possible instances or is it a sample (not necessarily random) of instances from a larger set?
+  - The larger set was the 1998 KDHS consisting of 3 datasets. For the dataset used in the paper, a smaller sample of the larger sample is taken into account. It is representative in terms of regional coverage as it includes the same respondents but focuses on a question which is: Chances of getting AIDS?
 The raw dataset consists of two tables. The table is on Kenya’s Demographic and Health Surveys in 1998, Chapter 10, Table 10,9.1 and 10.9.2
-
-Is there a label or target associated with each instance?
-- Table 10.9.1 Perception of the risk of getting AIDS: women: Percent distribution of women who have heard of AIDS by their perception of their risk of getting
+4. Is there a label or target associated with each instance?
+  - Table 10.9.1 Perception of the risk of getting AIDS: women: Percent distribution of women who have heard of AIDS by their perception of their risk of getting
 AIDS, according to background characteristics, Kenya 1998 and Table 10.9.2 Perception of the risk of getting AIDS: men: Percent distribution of men who have heard of AIDS by their perception of their risk of getting AIDS, according to background characteristics, Kenya 1998
+5. Is any information missing from individual instances?
+  - Information on the income level of respondents is not included in the table.
+6. Are there any errors, sources of noise, or redundancies in the dataset?
+  - There are no errors, sources of noise or redundancies in the dataset.
+7. Is the dataset self-contained, or does it link to or otherwise rely on external resources (e.g., websites, tweets, other datasets)?
+  - The dataset is self-contained.
+8. Does the dataset contain data that might be considered confidential?
+  - There is no confidential data, the dataset is publicly available.
+9. Does the dataset identify any subpopulations (e.g., by age, gender)?
+  - The dataset comprises men and women aged 15 years or above.
+10. Is it possible to identify individuals (i.e., one or more natural persons), either directly or indirectly (i.e., in combination with other data) from the dataset? 
+  - It is not possible to identify individuals. 
+11. Does the dataset contain data that might be considered sensitive in any way?
+  - Sensitive information may include but is not limited to: Number of sexual partners for men and women before 18, The Percent of women aged 15-19 and 20-24 married before 18. Percent of men aged 15-19 and 20-24 married before 18. 
+13. Any other comments?
+  - None.
 
-Is any information missing from individual instances?
-- Information on the income level of respondents is not included in the table.
-Are there any errors, sources of noise, or redundancies in the dataset?
-- There are no errors, sources of noise or redundancies in the dataset.
-Is the dataset self-contained, or does it link to or otherwise rely on external resources (e.g., websites, tweets, other datasets)?
-- The dataset is self-contained.
-Does the dataset contain data that might be considered confidential?
-- There is no confidential data, the dataset is publicly available.
-Does the dataset identify any subpopulations (e.g., by age, gender)?
-- The dataset comprises men and women aged 15 years or above.
-
-Is it possible to identify individuals (i.e., one or more natural persons), either directly or indirectly (i.e., in combination with other data) from the dataset? 
-- It is not possible to identify individuals. 
-Does the dataset contain data that might be considered sensitive in any way?
-- Sensitive information may include but is not limited to: Number of sexual partners for men and women before 18, The Percent of women aged 15-19 and 20-24 married before 18. Percent of men aged 15-19 and 20-24 married before 18. 
-Any other comments?
-- None.
-
-### Collection Process
-How was the data associated with each instance acquired?
-- The data set was collected by the DHS program in Kenya. Details can be found in the Data Methodology section of the report.
-What mechanisms or procedures were used to collect the data (e.g., hardware apparatuses or sensors, manual human curation, software programs, software APIs)?
+**Collection Process**
+1. How was the data associated with each instance acquired?
+  - The data set was collected by the DHS program in Kenya. Details can be found in the Data Methodology section of the report.
+2. What mechanisms or procedures were used to collect the data (e.g., hardware apparatuses or sensors, manual human curation, software programs, software APIs)?
 - Household questionnaires, in-person interviews, and other types of model questionnaires were employed. 
-If the dataset is a sample from a larger set, what was the sampling strategy (e.g., deterministic, probabilistic with specific sampling probabilities)?
+3. If the dataset is a sample from a larger set, what was the sampling strategy (e.g., deterministic, probabilistic with specific sampling probabilities)?
 - The enumeration areas are drawn from census files, and samples of households were selected from the enumeration areas.
-Who was involved in the data collection process (e.g., students, crowdworkers, contractors) and how were they compensated (e.g., how much were crowdworkers paid)?
+4. Who was involved in the data collection process (e.g., students, crowdworkers, contractors) and how were they compensated (e.g., how much were crowdworkers paid)?
 - The DHS program members were involved in the data collection process.
-Over what timeframe was the data collected?
+5. Over what timeframe was the data collected?
 - The data used in this report was collected in 1998.
-Did you collect the data from the individuals in question directly, or obtain it via third parties or other sources (e.g., websites)?
+6. Did you collect the data from the individuals in question directly, or obtain it via third parties or other sources (e.g., websites)?
 - The data is obtained from the official website of the DHS program. The link is https://dhsprogram.com/
-Were the individuals in question notified about the data collection?
+7. Were the individuals in question notified about the data collection?
 - The individuals of the question are well aware of the survey as well as the data collection.
-Did the individuals in question consent to the collection and use of their data?
+8. Did the individuals in question consent to the collection and use of their data?
 - The individuals in question have consented to the collection and use of their data.
-If consent was obtained, were the consenting individuals provided with a mechanism to revoke their consent in the future or for certain uses?
+9. If consent was obtained, were the consenting individuals provided with a mechanism to revoke their consent in the future or for certain uses?
 - There’s no open information available to tell if the consent for revokes were granted to the survey participants.
-Has an analysis of the potential impact of the dataset and its use on data subjects (e.g., a data protection impact analysis) been conducted?
-- The analysis of the original survey data was conducted by the National Council for Population and Development of the Republic of Kenya. The link to the report is: https://dhsprogram.com/pubs/pdf/FR102/FR102.pdf
-Any other comments?
+10. Has an analysis of the potential impact of the dataset and its use on data subjects (e.g., a data protection impact analysis) been conducted?
+- The analysis of the original survey data was conducted by the National Council for Population and 11. Development of the Republic of Kenya. The link to the report is: https://dhsprogram.com/pubs/pdf/FR102/FR102.pdf
+12. Any other comments?
 - None.
 
-### Preprocessing/ cleaning/ labeling
+**Preprocessing/ cleaning/ labeling**
 
-Was any preprocessing/cleaning/labeling of the data done?
+1. Was any preprocessing/cleaning/labeling of the data done?
 - The data was originally obtained in PDF format. The table from the survey PDF was converted to a usable data frame in R using the library pdftools for R. 
-Was the “raw” data saved in addition to the preprocessed/cleaned/labeled data (e.g., to support unanticipated future uses)?
+2. Was the “raw” data saved in addition to the preprocessed/cleaned/labeled data (e.g., to support unanticipated future uses)?
 - The raw data obtained is saved in outputs/data/raw_data_male.csv and outputs/data/raw_data_female.csv
-Is the software that was used to preprocess/clean/label the data available?
+3. Is the software that was used to preprocess/clean/label the data available?
 - R software is available at https://www.R-project.org/ 
 
-### Uses
-Has the dataset been used for any tasks already?
+**Uses**
+1. Has the dataset been used for any tasks already?
 - The dataset has not been used for other tasks yet.
-Is there a repository that links to any or all papers or systems that use the dataset?
+2. Is there a repository that links to any or all papers or systems that use the dataset?
 - https://github.com/R300G/Kenya_Demographic_1998.git
-What (other) tasks could the dataset be used for?
+3. What (other) tasks could the dataset be used for?
 - The dataset would be used for understanding behavior to disease amongst different socio-economic demographic
-Is there anything about the composition of the dataset or the way it was collected and preprocessed/cleaned/labeled that might impact future uses?
+4. Is there anything about the composition of the dataset or the way it was collected and preprocessed/cleaned/labeled that might impact future uses?
 - The cleaning process is very specific to the way this table was formatted in the original PDF and may not work on other tables. 
 
-### Distribution
+**Distribution**
 
-Will the dataset be distributed to third parties outside of the entity (e.g., company, institution, organization) on behalf of which the dataset was created? 
+1. Will the dataset be distributed to third parties outside of the entity (e.g., company, institution, organization) on behalf of which the dataset was created? 
 - No. The data set is for personal use only.
-How will the dataset will be distributed (e.g., tarball on website, API, GitHub)?
+2. How will the dataset will be distributed (e.g., tarball on website, API, GitHub)?
 - The dataset can be found in the Github repository mentioned in the report.
-When will the dataset be distributed?
+3. When will the dataset be distributed?
 - The dataset has already been distributed in April 2022. 
-Will the dataset be distributed under a copyright or other intellectual property (IP) license, and/or under applicable terms of use (ToU)?
+4. Will the dataset be distributed under a copyright or other intellectual property (IP) license, and/or under applicable terms of use (ToU)?
 - The report is under the MIT license.
-Have any third parties imposed IP-based or other restrictions on the data associated with the instances?
+5. Have any third parties imposed IP-based or other restrictions on the data associated with the instances?
 - There are no IP-based or other restrictions on the data.
-Do any export controls or other regulatory restrictions apply to the dataset or to individual instances?
+6. Do any export controls or other regulatory restrictions apply to the dataset or to individual instances?
 - No.
-Any other comments?
+7. Any other comments?
 - None.
 
 
-### Maintenance
+**Maintenance**
 
-Who will be supporting/hosting/maintaining the dataset?
+1. Who will be supporting/hosting/maintaining the dataset?
 - All three authors of the report will be maintaining the dataset. They are Mahak Jain, Yujun Jiao and Charles Lu
-How can the owner/curator/manager of the dataset be contacted (e.g., email address)?
+2. How can the owner/curator/manager of the dataset be contacted (e.g., email address)?
 - They can be contacted via the email addresses listed in the README file on Github.
-Will the dataset be updated (e.g., to correct labeling errors, add new instances, delete instances)?
+3. Will the dataset be updated (e.g., to correct labeling errors, add new instances, delete instances)?
 - No dataset updates are scheduled yet. 
-If the dataset relates to people, are there applicable limits on the retention of the data associated with the instances (e.g., were the individuals in question told that their data would be retained for a fixed period of time and then deleted)?
+4. If the dataset relates to people, are there applicable limits on the retention of the data associated with the instances (e.g., were the individuals in question told that their data would be retained for a fixed period of time and then deleted)?
 - The data set was collected by the DHS program in 1998. There are no application limits on the retention of the data since it was collected voluntarily.
-Will older versions of the dataset continue to be supported/hosted/maintained?
+5. Will older versions of the dataset continue to be supported/hosted/maintained?
 - No. Only the current data is available for now and future.
-If others want to extend/augment/build on/contribute to the dataset, is there a mechanism for them to do so?
+6. If others want to extend/augment/build on/contribute to the dataset, is there a mechanism for them to do so?
 - The extensions, augmentations and contributions from other users are not supported.
-
-
 
 # References

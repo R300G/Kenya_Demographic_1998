@@ -1,6 +1,6 @@
 #### Preamble ####
 # Purpose: Clean the survey data downloaded from the DHS Paper, saved as raw data.
-# Author: RCharles Lu, Mahak Jain, Yujun Jiao
+# Author: Charles Lu, Mahak Jain, Yujun Jiao
 # Data: 10 July 2022
 # Contact: charlesjiahong.lu@mail.utoronto.ca
 # License: MIT

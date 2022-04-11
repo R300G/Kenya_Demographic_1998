@@ -1,16 +1,16 @@
 #### Preamble ####
 # Purpose: Clean the survey data downloaded from the DHS Paper, saved as raw data.
-# Author: RCharles Lu, Mahak Jain, Yujun Jiao
+# Author: Charles Lu, Mahak Jain, Yujun Jiao
 # Data: 10 July 2022
 # Contact: charlesjiahong.lu@mail.utoronto.ca
 # License: MIT
 # Pre-requisites:
-# - Need to have DHS report of Kenya 1998 "FR102.pdf" in inputs folder
+# - Need to have DHS report of Kenya 1998 "FR102.pdf" in inputs/data folder
 
 library(tidyverse)
 library(pdftools)
 
-dhs_1998 <- pdf_text("inputs/FR102.pdf")
+dhs_1998 <- pdf_text("inputs/data/FR102.pdf")
 
 dhs_1998 <- tibble(raw_data = dhs_1998)
 

@@ -855,4 +855,47 @@ Does the dataset contain data that might be considered sensitive in any way?
 Any other comments?
 - None.
 
+### Collection Process
+How was the data associated with each instance acquired?
+- The data set was collected by the DHS program in Kenya. Details can be found in the Data Methodology section of the report.
+What mechanisms or procedures were used to collect the data (e.g., hardware apparatuses or sensors, manual human curation, software programs, software APIs)?
+- Household questionnaires, in-person interviews, and other types of model questionnaires were employed. 
+If the dataset is a sample from a larger set, what was the sampling strategy (e.g., deterministic, probabilistic with specific sampling probabilities)?
+- The enumeration areas are drawn from census files, and samples of households were selected from the enumeration areas.
+Who was involved in the data collection process (e.g., students, crowdworkers, contractors) and how were they compensated (e.g., how much were crowdworkers paid)?
+- The DHS program members were involved in the data collection process.
+Over what timeframe was the data collected?
+- The data used in this report was collected in 1998.
+Did you collect the data from the individuals in question directly, or obtain it via third parties or other sources (e.g., websites)?
+- The data is obtained from the official website of the DHS program. The link is https://dhsprogram.com/
+Were the individuals in question notified about the data collection?
+- The individuals of the question are well aware of the survey as well as the data collection.
+Did the individuals in question consent to the collection and use of their data?
+- The individuals in question have consented to the collection and use of their data.
+If consent was obtained, were the consenting individuals provided with a mechanism to revoke their consent in the future or for certain uses?
+- There’s no open information available to tell if the consent for revokes were granted to the survey participants.
+Has an analysis of the potential impact of the dataset and its use on data subjects (e.g., a data protection impact analysis) been conducted?
+- The analysis of the original survey data was conducted by the National Council for Population and Development of the Republic of Kenya. The link to the report is: https://dhsprogram.com/pubs/pdf/FR102/FR102.pdf
+Any other comments?
+- None.
+
+### Preprocessing/ cleaning/ labeling
+
+Was any preprocessing/cleaning/labeling of the data done?
+- The data was originally obtained in PDF format. The table from the survey PDF was converted to a usable data frame in R using the library pdftools for R. 
+Was the “raw” data saved in addition to the preprocessed/cleaned/labeled data (e.g., to support unanticipated future uses)?
+-The raw data obtained is saved in outputs/data/raw_data_male.csv and outputs/data/raw_data_female.csv
+Is the software that was used to preprocess/clean/label the data available?
+-R software is available at https://www.R-project.org/ 
+
+### Uses
+Has the dataset been used for any tasks already?
+- The dataset has not been used for other tasks yet.
+Is there a repository that links to any or all papers or systems that use the dataset?
+- https://github.com/R300G/Kenya_Demographic_1998.git
+What (other) tasks could the dataset be used for?
+- The dataset would be used for understanding behavior to disease amongst different socio-economic demographic
+Is there anything about the composition of the dataset or the way it was collected and preprocessed/cleaned/labeled that might impact future uses?
+- The cleaning process is very specific to the way this table was formatted in the original PDF and may not work on other tables. 
+
 # References

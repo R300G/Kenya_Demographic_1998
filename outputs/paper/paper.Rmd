@@ -304,9 +304,9 @@ scatterPlote
 
 ## Marital Status
 
-(Figure \@ref(fig:comarm)) showcases the correlation between participants’ marital status past 12 months and participants' selected survey answers through both linear and non-linear lines. For female and male participants, the line depicts that the “no risk at all” to the chances of getting AID increases once the participant is not married or is formerly married. Overall, the perception of getting AIDS amongst male and female participants is positively correlated to the marital status, in terms of it increases when they’re currently married, to never married as expected. The relationship between the perception of getting AIDS and it being a “small”, “moderate” and “great” risk almost show a similar pattern for male and female participants both. Their perception of AIDS being a “small” risk is lower for those currently married, increases once formerly married, and decreases when never married, this pattern is similar to the male participants' “great” and “moderate” perception of getting AIDS as well.  The pattern for “great” and “moderate” chances for female participants has a similar linear trend as they’re decreasing. 
+Figure \@ref(fig:comarm) showcases the correlation between participants’ marital status past 12 months and participants' selected survey answers through both linear and non-linear lines. For female and male participants, the line depicts that the “no risk at all” to the chances of getting AID increases once the participant is not married or is formerly married. Overall, the perception of getting AIDS amongst male and female participants is positively correlated to the marital status, in terms of it increases when they’re currently married, to never married as expected. The relationship between the perception of getting AIDS and it being a “small”, “moderate” and “great” risk almost show a similar pattern for male and female participants both. Their perception of AIDS being a “small” risk is lower for those currently married, increases once formerly married, and decreases when never married, this pattern is similar to the male participants' “great” and “moderate” perception of getting AIDS as well.  The pattern for “great” and “moderate” chances for female participants has a similar linear trend as they’re decreasing. 
 
-The difference between the perception of male and female participants as shown in the graph (Figure \@ref(fig:maritalm)) and (Figure \@ref(fig:maritalf)) are based on several factors, some of which may include differences in societal expectations for men versus women, education, customs, and ideologies.
+The difference between the perception of male and female participants as shown in the graph Figure \@ref(fig:maritalm) and Figure \@ref(fig:maritalf) are based on several factors, some of which may include differences in societal expectations for men versus women, education, customs, and ideologies.
 
 ```{r comarm, fig.cap="Survey Participant Distribution for Marital Status", echo = FALSE, message = FALSE, warning = FALSE, fig.width=8, fig.height=4}
 
@@ -330,7 +330,7 @@ scatterPlot1
 ## Residence Region
 
 
-(Figure \@ref(fig:coress)) showcases the correlation between participants’ region of residence and participants' selected survey answers through both linear and non-linear lines. From societal understanding, it would be safe to assume that residents living in the urban area would have more access to information and the safety of diseases as there would be more sources of accessing that information. Thus, it is reasonable to assume that residents who reside in urban areas would have more behavioral changes in terms of perception of the chances of getting AIDS, due to the comparitve influx of information. Thus, we should expect downwards trends for both survey answers “no risk at all”, “moderate” and “small” for urban compared to rural. Overall, the figure for female participants showcased a similar trend as expected. 
+Figure \@ref(fig:coress) showcases the correlation between participants’ region of residence and participants' selected survey answers through both linear and non-linear lines. From societal understanding, it would be safe to assume that residents living in the urban area would have more access to information and the safety of diseases as there would be more sources of accessing that information. Thus, it is reasonable to assume that residents who reside in urban areas would have more behavioral changes in terms of perception of the chances of getting AIDS, due to the comparitve influx of information. Thus, we should expect downwards trends for both survey answers “no risk at all”, “moderate” and “small” for urban compared to rural. Overall, the figure for female participants showcased a similar trend as expected. 
 
 The graphs below depict the answers of participants on rural and urban sides about their chances of getting the AIDS virus.  There may be several factors affecting their perception of their chances of getting AIDS on both sides, some of which may include education, differences in societal expectations, marriage, customs, and ideologies. 
 
@@ -813,9 +813,6 @@ marital_diverging %>% filter(gender == "female")%>%
 
 ## Datasheet
 
-
-## Datasheet
-
 **Motivation**
 
 1. For what purpose was the dataset created?
@@ -855,6 +852,7 @@ AIDS, according to background characteristics, Kenya 1998 and Table 10.9.2 Perce
   - None.
 
 **Collection Process**
+
 1. How was the data associated with each instance acquired?
   - The data set was collected by the DHS program in Kenya. Details can be found in the Data Methodology section of the report.
 2. What mechanisms or procedures were used to collect the data (e.g., hardware apparatuses or sensors, manual human curation, software programs, software APIs)?
@@ -888,6 +886,7 @@ AIDS, according to background characteristics, Kenya 1998 and Table 10.9.2 Perce
 - R software is available at https://www.R-project.org/ 
 
 **Uses**
+
 1. Has the dataset been used for any tasks already?
 - The dataset has not been used for other tasks yet.
 2. Is there a repository that links to any or all papers or systems that use the dataset?

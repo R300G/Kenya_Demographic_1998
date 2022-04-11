@@ -1,18 +1,16 @@
 #### Preamble ####
 # Purpose: Clean the survey data downloaded from the DHS Paper, saved as raw data.
-# Author: Rohan Alexander [CHANGE THIS TO YOUR NAME!!!!]
-# Data: 3 January 2021
-# Contact: rohan.alexander@utoronto.ca [PROBABLY CHANGE THIS ALSO!!!!]
+# Author: RCharles Lu, Mahak Jain, Yujun Jiao
+# Data: 10 July 2022
+# Contact: charlesjiahong.lu@mail.utoronto.ca
 # License: MIT
 # Pre-requisites:
-# - Need to have downloaded the ACS data and saved it to inputs/data
-# - Don't forget to gitignore it!
-# - Change these to yours
-# Any other information needed?
+# - Need to run 01-gather_data script in scripts folder and saved the raw_data_female.csv and raw_data_male.csv in outputs/data
+
 
 
 #### Workspace setup ####
-# Use R Projects, not setwd().
+
 
 
 library(haven)

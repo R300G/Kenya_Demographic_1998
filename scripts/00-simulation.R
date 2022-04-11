@@ -1,10 +1,10 @@
 #### Preamble ####
 # Purpose: Obtain and prepare data about men responding to questions about AIDS
 # for demographics such as age and province.
-# Author: 
-# Email: 
-# Date: 
-# Prerequisites: - 
+# Author:  - Charles Lu, Mahak Jain, Yujun Jiao
+# Email: charlesjiahong.lu@mail.utoronto.ca
+# Data: 10 July 2022
+# License: MIT
 
 
 

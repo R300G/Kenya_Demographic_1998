@@ -1,5 +1,6 @@
 ---
-title: "My title"
+title: "Impacts of Social Backgrounds on People's Perception of the Risk of Getting AIDS"
+subtitle: "An Analysis Based on the Kenya's Demographic and Health Survey in 1998"
 author: 
   - Charles Lu
   - Mahak Jain

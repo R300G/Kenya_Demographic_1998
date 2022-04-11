@@ -1,6 +1,6 @@
 # AIDS related knowledge of Kenya population of 1998
 
-- Author: Charles Lu
+- Author: Charles Lu, Mahak Jain, Yujun Jiao
 - Date: April 3rd, 2022
 - E-mail: charlesjiahong.lu@utoronto.ca
 

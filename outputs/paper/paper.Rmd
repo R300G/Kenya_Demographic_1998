@@ -464,7 +464,7 @@ age_diverging %>% filter(gender == "female")%>%
     )
   ) +
   labs(
-    title = "What is your chances of getting AIDS? (Female)",
+    title = "What are your chances of getting AIDS? (Female)",
     x = "age",
     fill = NULL
   ) +
@@ -508,7 +508,7 @@ num_diverging %>% filter(gender == "male")%>%
     )
   ) +
   labs(
-    title = "What is your chances of getting AIDS? (Male)",
+    title = "What are your chances of getting AIDS? (Male)",
     x = "No. of sexual partner other than Wife",
     fill = NULL
   ) +
@@ -552,7 +552,7 @@ num_diverging %>% filter(gender == "female")%>%
     )
   ) +
   labs(
-    title = "What is your chances of getting AIDS? (Female)",
+    title = "What are your chances of getting AIDS? (Female)",
     x = "No. of sexual partner other than Husband",
     fill = NULL
   ) +
@@ -597,7 +597,7 @@ education_diverging %>% filter(gender == "male")%>%
     )
   ) +
   labs(
-    title = "What is your chances of getting AIDS? (Male)",
+    title = "What are your chances of getting AIDS? (Male)",
     x = "Education",
     fill = NULL
   ) +
@@ -635,7 +635,7 @@ education_diverging %>% filter(gender == "female")%>%
     )
   ) +
   labs(
-    title = "What is your chances of getting AIDS? (Female)",
+    title = "What are your chances of getting AIDS? (Female)",
     x = "Education",
     fill = NULL
   ) +
@@ -679,7 +679,7 @@ marital_diverging %>% filter(gender == "male")%>%
     )
   ) +
   labs(
-    title = "What is your chances of getting AIDS? (Male)",
+    title = "What are your chances of getting AIDS? (Male)",
     x = "Marital Status",
     fill = NULL
   ) +
@@ -717,7 +717,7 @@ marital_diverging %>% filter(gender == "female")%>%
     )
   ) +
   labs(
-    title = "What is your chances of getting AIDS? (Female)",
+    title = "What are your chances of getting AIDS? (Female)",
     x = "Marital Status",
     fill = NULL
   ) +
@@ -761,7 +761,7 @@ marital_diverging %>% filter(gender == "male")%>%
     )
   ) +
   labs(
-    title = "What is your chances of getting AIDS? (Male)",
+    title = "What are your chances of getting AIDS? (Male)",
     x = "Marital Status",
     fill = NULL
   ) +
@@ -799,7 +799,7 @@ marital_diverging %>% filter(gender == "female")%>%
     )
   ) +
   labs(
-    title = "What is your chances of getting AIDS? (Female)",
+    title = "What are your chances of getting AIDS? (Female)",
     x = "Marital Status",
     fill = NULL
   ) +

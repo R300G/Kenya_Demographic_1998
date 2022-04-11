@@ -884,9 +884,9 @@ Any other comments?
 Was any preprocessing/cleaning/labeling of the data done?
 - The data was originally obtained in PDF format. The table from the survey PDF was converted to a usable data frame in R using the library pdftools for R. 
 Was the “raw” data saved in addition to the preprocessed/cleaned/labeled data (e.g., to support unanticipated future uses)?
--The raw data obtained is saved in outputs/data/raw_data_male.csv and outputs/data/raw_data_female.csv
+- The raw data obtained is saved in outputs/data/raw_data_male.csv and outputs/data/raw_data_female.csv
 Is the software that was used to preprocess/clean/label the data available?
--R software is available at https://www.R-project.org/ 
+- R software is available at https://www.R-project.org/ 
 
 ### Uses
 Has the dataset been used for any tasks already?

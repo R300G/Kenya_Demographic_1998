@@ -384,7 +384,7 @@ It’s always important for the readers to always acknowledge the flaws in this 
 
 AIDS is a transmissible disease that cannot be cured. AIDS/HIV has infected more than 35 million people worldwide, it can only be controlled with active therapy and medications[@deeks]. In this report, by analyzing the answers from people from various backgrounds, the chances of them being infected with AIDS were analyzed in detail. However, studying people’s perceptions alone is not enough to make fair conclusions about the nature, the trends, and the effective prevention methods of the disease. Other factors such as people’s knowledge about AIDS, the universalization rate of effective prevention methods, and the availability of healthcare in the studied region are also crucial to the impacts of the disease. In addition, the DHS report studied in this analysis was published in 1998, signifying that it has lost some relevance to modern society. Hence, in the future, more up-to-date reports will be reviewed to achieve a better understanding of the different aspects of the disease. In hopes of reducing the negative influence of AIDS on people’s daily life, this analysis aims to educate the public about the seriousness of sexually transmissible diseases, outline the factors that increase the infection rate, and promote future governmental and health plans. 
 
-# Apendix
+# Appendix
 
 ## Data Visualization
 ```{r agevm, fig.cap="Percentage Distribution of Survey Answers by Age", echo = FALSE,fig.width=8, fig.height=4}
